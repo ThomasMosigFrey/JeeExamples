@@ -1,0 +1,3 @@
+org/jboss/as/quickstarts/interapp/appA/Imports.class
+org/jboss/as/quickstarts/interapp/appA/FooImpl.class
+org/jboss/as/quickstarts/interapp/appA/ControllerA.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetParticipantBA.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/AlreadyInSetException.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBAService.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBA.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/MockSetManager.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceBAImpl.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceException.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/Client.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/ClientIT.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/ClientStub.java">
+</file>
+</checkstyle>

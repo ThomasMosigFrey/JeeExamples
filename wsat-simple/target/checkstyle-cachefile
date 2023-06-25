@@ -1,0 +1,13 @@
+#Sun Jun 25 14:38:16 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/MockRestaurantManager.java=1687414821318
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantException.java=1687414821318
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantParticipant.java=1687414821319
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantServiceATImpl.java=1687414821319
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceAT.java=1687414821319
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceATService.java=1687414821320
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/servlet/WSATSimpleServletClient.java=1687414821320
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/Client.java=1687414821325
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/ClientIT.java=1687414821325
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/ClientStub.java=1687414821326
+configuration*?=7C429E6FA0A9072D9F18DCEB444C98AA56D72DE5
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

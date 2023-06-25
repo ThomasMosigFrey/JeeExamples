@@ -1,0 +1,7 @@
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/UserDao.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/web/CreateController.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/Resources.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/User.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/EJBUserDao.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/web/GreetController.java
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/ManagedBeanUserDao.java

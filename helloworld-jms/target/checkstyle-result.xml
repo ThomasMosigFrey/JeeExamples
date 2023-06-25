@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-jms/src/main/java/org/jboss/as/quickstarts/jms/HelloWorldJMSClient.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-jms/src/main/resources/META-INF/wildfly-config.xml">
+</file>
+</checkstyle>

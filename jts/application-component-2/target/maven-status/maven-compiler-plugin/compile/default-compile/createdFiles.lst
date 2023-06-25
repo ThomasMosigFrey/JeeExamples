@@ -1,0 +1,4 @@
+org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJB.class
+org/jboss/as/quickstarts/cmt/jts/mdb/HelloWorldMDB.class
+org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJBHome.class
+org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJBImpl.class

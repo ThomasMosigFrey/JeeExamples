@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-asynchronous/ejb/src/main/java/org/jboss/as/quickstarts/ejb/asynchronous/AsynchronousAccess.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-asynchronous/ejb/src/main/java/org/jboss/as/quickstarts/ejb/asynchronous/ParallelAccessBean.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-asynchronous/ejb/src/main/java/org/jboss/as/quickstarts/ejb/asynchronous/AsynchronousAccessBean.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-asynchronous/ejb/src/main/java/org/jboss/as/quickstarts/ejb/asynchronous/AnotherAsynchronousAccess.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-asynchronous/ejb/src/main/java/org/jboss/as/quickstarts/ejb/asynchronous/ParallelAccess.java">
+</file>
+</checkstyle>

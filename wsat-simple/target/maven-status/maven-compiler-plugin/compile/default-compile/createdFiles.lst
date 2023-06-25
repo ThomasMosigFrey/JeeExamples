@@ -1,0 +1,7 @@
+org/jboss/as/quickstarts/wsat/simple/MockRestaurantManager.class
+org/jboss/as/quickstarts/wsat/simple/RestaurantParticipant.class
+org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceATService.class
+org/jboss/as/quickstarts/wsat/simple/RestaurantServiceATImpl.class
+org/jboss/as/quickstarts/wsat/simple/servlet/WSATSimpleServletClient.class
+org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceAT.class
+org/jboss/as/quickstarts/wsat/simple/RestaurantException.class

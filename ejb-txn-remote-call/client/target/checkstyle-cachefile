@@ -1,0 +1,10 @@
+#Sun Jun 25 12:33:24 CEST 2023
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/client/RemoteBeanCaller.java=1687414820995
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/client/RemoteLookupHelper.java=1687414820995
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/client/RestEndpoints.java=1687414820996
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/client/UsersManagement.java=1687414820996
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/entity/CallerUser.java=1687414820996
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/java/org/jboss/as/quickstarts/ejb/server/RemoteBeanInterface.java=1687414820996
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/client/src/main/resources/META-INF/persistence.xml=1687414820997
+configuration*?=B5F83C6B999F607FE9B5A3A7372F3AE1DAF57BC1
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

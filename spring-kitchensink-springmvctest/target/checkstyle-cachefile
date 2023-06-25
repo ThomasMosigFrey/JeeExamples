@@ -1,0 +1,13 @@
+#Sun Jun 25 12:33:59 CEST 2023
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/controller/MemberController.java=1687414821254
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/controller/MemberRestController.java=1687414821254
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/data/MemberDao.java=1687414821254
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/data/MemberDaoImpl.java=1687414821254
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/model/Member.java=1687414821255
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/resources/META-INF/persistence.xml=1687414821255
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/resources/META-INF/spring/applicationContext.xml=1687414821255
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/resources/META-INF/spring/infrastructure.xml=1687414821255
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/test/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/test/MemberDaoTest.java=1687414821259
+/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/test/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/test/MemberMockMVCTest.java=1687414821259
+configuration*?=5578D7F981ABDA7AD04EB4D07CC1B7CBA4D362E0
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

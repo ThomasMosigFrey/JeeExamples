@@ -1,0 +1,9 @@
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/resources/Resources.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/events/PaymentTypeEnum.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/qualifiers/Debit.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/handler/IDebitEventObserver.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/beans/PaymentBean.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/handler/PaymentHandler.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/handler/ICreditEventObserver.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/qualifiers/Credit.java
+/Users/thomas/IdeaProjects/JeeExamples.bak/payment-cdi-event/src/main/java/org/jboss/as/quickstarts/payment/events/PaymentEvent.java

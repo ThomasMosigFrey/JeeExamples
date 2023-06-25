@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/ControllerB.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/BarImpl.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/Imports.java">
+</file>
+</checkstyle>

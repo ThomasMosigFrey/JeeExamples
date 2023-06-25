@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/servlet/WSATSimpleServletClient.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/MockRestaurantManager.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceAT.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/jaxws/RestaurantServiceATService.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantException.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantServiceATImpl.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/main/java/org/jboss/as/quickstarts/wsat/simple/RestaurantParticipant.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/Client.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/ClientIT.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/wsat-simple/src/test/java/org/jboss/as/quickstarts/wsat/simple/ClientStub.java">
+</file>
+</checkstyle>

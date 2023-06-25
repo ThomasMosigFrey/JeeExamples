@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/main/java/org/jboss/as/quickstarts/wshelloworld/HelloWorldServiceImpl.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/main/java/org/jboss/as/quickstarts/wshelloworld/HelloWorldService.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/Client.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/ClientTest.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/ClientArqIT.java">
+</file>
+</checkstyle>

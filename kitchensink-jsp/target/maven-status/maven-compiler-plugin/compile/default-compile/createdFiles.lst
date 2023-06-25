@@ -1,0 +1,8 @@
+org/jboss/as/quickstarts/kitchensinkjsp/util/Resources.class
+org/jboss/as/quickstarts/kitchensinkjsp/rest/MemberResourceRESTService.class
+org/jboss/as/quickstarts/kitchensinkjsp/rest/JaxRsActivator.class
+org/jboss/as/quickstarts/kitchensinkjsp/model/Member_.class
+org/jboss/as/quickstarts/kitchensinkjsp/servlet/MemberRegistrationServlet.class
+org/jboss/as/quickstarts/kitchensinkjsp/controller/MemberRegistration.class
+org/jboss/as/quickstarts/kitchensinkjsp/model/Member.class
+org/jboss/as/quickstarts/kitchensinkjsp/data/MemberListProducer.class

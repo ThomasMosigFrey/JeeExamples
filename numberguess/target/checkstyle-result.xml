@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/numberguess/src/main/java/org/jboss/as/quickstarts/numberguess/MaxNumber.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/numberguess/src/main/java/org/jboss/as/quickstarts/numberguess/Random.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/numberguess/src/main/java/org/jboss/as/quickstarts/numberguess/Game.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/numberguess/src/main/java/org/jboss/as/quickstarts/numberguess/Generator.java">
+</file>
+</checkstyle>

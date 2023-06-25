@@ -1,0 +1,7 @@
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/MockSetManager.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/AlreadyInSetException.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceException.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBA.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetParticipantBA.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceBAImpl.class
+org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBAService.class

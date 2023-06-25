@@ -1,0 +1,8 @@
+org/jboss/as/quickstarts/cmt/ejb/CustomerManagerEJB.class
+org/jboss/as/quickstarts/cmt/model/LogMessage.class
+org/jboss/as/quickstarts/cmt/ejb/LogMessageManagerEJB.class
+org/jboss/as/quickstarts/cmt/model/Customer.class
+org/jboss/as/quickstarts/cmt/controller/LogMessageManager.class
+org/jboss/as/quickstarts/cmt/mdb/HelloWorldMDB.class
+org/jboss/as/quickstarts/cmt/controller/CustomerManager.class
+org/jboss/as/quickstarts/cmt/ejb/InvoiceManagerEJB.class

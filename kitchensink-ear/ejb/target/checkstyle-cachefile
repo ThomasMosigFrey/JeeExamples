@@ -1,0 +1,11 @@
+#Sun Jun 25 14:38:00 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/data/MemberListProducer.java=1687414821137
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/data/MemberRepository.java=1687414821138
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/model/Member.java=1687414821138
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/service/MemberRegistration.java=1687414821138
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/java/org/jboss/as/quickstarts/kitchensink_ear/util/Resources.java=1687414821138
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/resources/META-INF/beans.xml=1687414821139
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/main/resources/META-INF/persistence.xml=1687414821139
+/Users/thomas/IdeaProjects/JeeExamples.bak/kitchensink-ear/ejb/src/test/java/org/jboss/as/quickstarts/kitchensink_ear/test/MemberRegistrationIT.java=1687414821140
+configuration*?=54A0C7430DE6918F27104A228DCD3F53AE9B78EA
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

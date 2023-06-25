@@ -1,0 +1,27 @@
+#Sun Jun 25 14:38:08 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/AuthController.java=1687414821265
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/Authentication.java=1687414821265
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/CurrentTask.java=1687414821265
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/CurrentTaskStore.java=1687414821265
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/CurrentUser.java=1687414821266
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/Resources.java=1687414821266
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/Task.java=1687414821266
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/TaskController.java=1687414821266
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/TaskDao.java=1687414821266
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/TaskDaoImpl.java=1687414821267
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/TaskList.java=1687414821267
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/TaskListBean.java=1687414821267
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/User.java=1687414821267
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/UserDao.java=1687414821267
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/java/org/jboss/as/quickstarts/tasksJsf/UserDaoImpl.java=1687414821268
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/main/resources/META-INF/persistence.xml=1687414821268
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/DefaultDeployment.java=1687414821271
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/FacesContextStub.java=1687414821271
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/ResourcesIT.java=1687414821272
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/TaskDaoIT.java=1687414821272
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/TaskDaoStub.java=1687414821272
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/TaskListBeanIT.java=1687414821272
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/Testing.java=1687414821272
+/Users/thomas/IdeaProjects/JeeExamples.bak/tasks-jsf/src/test/java/org/jboss/as/quickstarts/tasksJsf/UserDaoIT.java=1687414821273
+configuration*?=072D90BA2D3CA3B0C2A081497511FDE60472691A
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

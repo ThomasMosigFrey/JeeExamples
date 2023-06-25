@@ -1,0 +1,10 @@
+#Sun Jun 25 14:38:14 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/java/org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJB.java=1687414821112
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/java/org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJBHome.java=1687414821112
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/java/org/jboss/as/quickstarts/cmt/jts/ejb/InvoiceManagerEJBImpl.java=1687414821112
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/java/org/jboss/as/quickstarts/cmt/jts/mdb/HelloWorldMDB.java=1687414821112
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/resources/META-INF/beans.xml=1687414821113
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/resources/META-INF/jboss-ejb3.xml=1687414821113
+/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-2/src/main/resources/META-INF/jts-quickstart-jms.xml=1687414821113
+configuration*?=D0582AF424F4147ADD51A70A6817DE2F6A2A0C1A
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

@@ -1,0 +1,13 @@
+#Sun Jun 25 14:38:16 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/AlreadyInSetException.java=1687414821329
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/MockSetManager.java=1687414821329
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetParticipantBA.java=1687414821330
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceBAImpl.java=1687414821330
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceException.java=1687414821330
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBA.java=1687414821331
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBAService.java=1687414821331
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/Client.java=1687414821333
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/ClientIT.java=1687414821334
+/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/test/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/ClientStub.java=1687414821334
+configuration*?=F459C75EFBE13AC3E11B1A94AE09F4F548418123
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

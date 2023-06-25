@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/MainApp.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/MainAppBean.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/resources/META-INF/ejb-jar.xml">
+</file>
+</checkstyle>

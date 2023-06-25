@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/mdb/HelloWorldMDB.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/controller/CustomerManager.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/controller/LogMessageManager.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/model/Customer.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/model/LogMessage.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/ejb/LogMessageManagerEJB.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/ejb/InvoiceManagerEJB.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/java/org/jboss/as/quickstarts/cmt/ejb/CustomerManagerEJB.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/test/java/org/jboss/as/quickstarts/cmt/ejb/CustomerManagerEJBTest.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/cmt/src/main/resources/META-INF/persistence.xml">
+</file>
+</checkstyle>

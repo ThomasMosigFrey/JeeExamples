@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-remote/server-side/src/main/java/org/jboss/as/quickstarts/ejb/remote/stateful/RemoteCounter.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-remote/server-side/src/main/java/org/jboss/as/quickstarts/ejb/remote/stateful/CounterBean.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-remote/server-side/src/main/java/org/jboss/as/quickstarts/ejb/remote/stateless/RemoteCalculator.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-remote/server-side/src/main/java/org/jboss/as/quickstarts/ejb/remote/stateless/CalculatorBean.java">
+</file>
+</checkstyle>

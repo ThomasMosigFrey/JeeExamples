@@ -1,0 +1,10 @@
+org/jboss/as/quickstarts/payment/handler/PaymentHandler.class
+org/jboss/as/quickstarts/payment/handler/ICreditEventObserver.class
+org/jboss/as/quickstarts/payment/resources/Resources.class
+org/jboss/as/quickstarts/payment/qualifiers/Debit.class
+org/jboss/as/quickstarts/payment/events/PaymentTypeEnum.class
+org/jboss/as/quickstarts/payment/events/PaymentEvent.class
+org/jboss/as/quickstarts/payment/beans/PaymentBean$1.class
+org/jboss/as/quickstarts/payment/beans/PaymentBean.class
+org/jboss/as/quickstarts/payment/handler/IDebitEventObserver.class
+org/jboss/as/quickstarts/payment/qualifiers/Credit.class

@@ -1,0 +1,12 @@
+org/jboss/as/quickstart/xml/SAXXMLParser$SAXHandler.class
+org/jboss/as/quickstart/xml/Book.class
+org/jboss/as/quickstart/xml/Error.class
+org/jboss/as/quickstart/xml/XMLParser.class
+org/jboss/as/quickstart/xml/SAXXMLParser$1.class
+org/jboss/as/quickstart/xml/DOMXMLParser$1.class
+org/jboss/as/quickstart/xml/Errors.class
+org/jboss/as/quickstart/xml/upload/FileUploadServlet.class
+org/jboss/as/quickstart/xml/DOMXMLParser.class
+org/jboss/as/quickstart/xml/upload/FileUploadBean.class
+org/jboss/as/quickstart/xml/SAXXMLParser.class
+org/jboss/as/quickstart/xml/Resources.class

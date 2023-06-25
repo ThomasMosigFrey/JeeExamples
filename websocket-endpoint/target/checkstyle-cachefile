@@ -1,0 +1,12 @@
+#Sun Jun 25 14:38:13 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/BidWebSocketEndpoint.java=1687414821306
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/BiddingEncoder.java=1687414821306
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/Message.java=1687414821306
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/MessageDecoder.java=1687414821307
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/model/Bid.java=1687414821307
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/model/BidStatus.java=1687414821307
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/model/Bidding.java=1687414821307
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/model/BiddingFactory.java=1687414821307
+/Users/thomas/IdeaProjects/JeeExamples.bak/websocket-endpoint/src/main/java/org/jboss/quickstarts/websocket/model/Item.java=1687414821308
+configuration*?=557D20B1662973A06307E8E58FD2A178D55846E9
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

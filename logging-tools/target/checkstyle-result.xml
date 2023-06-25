@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.5">
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/messages/GreetingMessagesBundle.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/loggers/GreeterLogger.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/loggers/DateLogger.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/exceptions/GreeterExceptionBundle.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/exceptions/LocaleInvalidException.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/exceptions/DateExceptionsBundle.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/DateService.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/java/org/jboss/as/quickstarts/loggingToolsQS/GreeterService.java">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/messages/GreetingMessagesBundle.i18n_fr_FR.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/messages/GreetingMessagesBundle.i18n_sv_SE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/messages/GreetingMessagesBundle.i18n_de_DE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/messages/GreetingMessagesBundle.i18n_locale_COUNTRY_VARIANT.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/GreeterLogger.i18n_sv_SE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/DateLogger.i18n_locale_COUNTRY_VARIANT.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/GreeterLogger.i18n_fr_FR.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/DateLogger.i18n_de_DE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/DateLogger.i18n_fr_FR.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/GreeterLogger.i18n_de_DE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/DateLogger.i18n_sv_SE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/loggers/GreeterLogger.i18n_locale_COUNTRY_VARIANT.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/GreeterExceptionBundle.i18n_de_DE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/DateExceptionsBundle.i18n_de_DE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/GreeterExceptionBundle.i18n_sv_SE.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/DateExceptionsBundle.i18n_fr_FR.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/GreeterExceptionBundle.i18n_fr_FR.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/GreeterExceptionBundle.i18n_locale_COUNTRY_VARIANT.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/DateExceptionsBundle.i18n_locale_COUNTRY_VARIANT.properties">
+</file>
+<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/logging-tools/src/main/resources/org/jboss/as/quickstarts/loggingToolsQS/exceptions/DateExceptionsBundle.i18n_sv_SE.properties">
+</file>
+</checkstyle>

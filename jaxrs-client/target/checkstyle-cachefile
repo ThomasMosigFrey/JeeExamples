@@ -1,0 +1,10 @@
+#Sun Jun 25 14:37:49 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/main/java/org/jboss/as/quickstarts/jaxrsclient/model/Contact.java=1687414821078
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/main/java/org/jboss/as/quickstarts/jaxrsclient/rest/ContactResourceRESTService.java=1687414821078
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/main/java/org/jboss/as/quickstarts/jaxrsclient/rest/JaxRsActivator.java=1687414821078
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/test/java/org/jboss/as/quickstarts/jaxrsclient/test/ContactsRestClient.java=1687414821080
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/test/java/org/jboss/as/quickstarts/jaxrsclient/test/ContactsRestClientIT.java=1687414821080
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/test/java/org/jboss/as/quickstarts/jaxrsclient/test/LogResponseFilter.java=1687414821080
+/Users/thomas/IdeaProjects/JeeExamples.bak/jaxrs-client/src/test/java/org/jboss/as/quickstarts/jaxrsclient/test/SavedByClientRequestFilter.java=1687414821080
+configuration*?=CCEBAA2B92AB66EB9EEF802BCF5D6051AA2B65AD
+module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E
