@@ -1,8 +1,0 @@
-#Sun Jun 25 14:38:10 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/temperature-converter/src/main/java/org/jboss/as/quickstarts/temperatureconverter/controller/ScaleConverter.java=1687414821285
-/Users/thomas/IdeaProjects/JeeExamples.bak/temperature-converter/src/main/java/org/jboss/as/quickstarts/temperatureconverter/controller/TemperatureConverter.java=1687414821285
-/Users/thomas/IdeaProjects/JeeExamples.bak/temperature-converter/src/main/java/org/jboss/as/quickstarts/temperatureconverter/ejb/Scale.java=1687414821285
-/Users/thomas/IdeaProjects/JeeExamples.bak/temperature-converter/src/main/java/org/jboss/as/quickstarts/temperatureconverter/ejb/Temperature.java=1687414821286
-/Users/thomas/IdeaProjects/JeeExamples.bak/temperature-converter/src/main/java/org/jboss/as/quickstarts/temperatureconverter/ejb/TemperatureConvertEJB.java=1687414821286
-configuration*?=47260C33FDE7201EC16C963580B59BBFAD5D8B2A
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

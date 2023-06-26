@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.5">
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/jts/ejb/CustomerManagerEJB.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/controller/CustomerManager.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/model/Customer.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/jts/application-component-1/src/main/resources/META-INF/persistence.xml">
-</file>
 </checkstyle>

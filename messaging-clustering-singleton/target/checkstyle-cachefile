@@ -1,6 +1,0 @@
-#Sun Jun 25 14:38:06 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/messaging-clustering-singleton/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldQueueMDB.java=1687414821204
-/Users/thomas/IdeaProjects/JeeExamples.bak/messaging-clustering-singleton/src/main/java/org/jboss/as/quickstarts/mdb/HelloWorldTopicMDB.java=1687414821204
-/Users/thomas/IdeaProjects/JeeExamples.bak/messaging-clustering-singleton/src/main/java/org/jboss/as/quickstarts/servlet/HelloWorldMDBServletClient.java=1687414821205
-configuration*?=B34DD7E5EC109AEBAA4F851BB5500B0638FB6009
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

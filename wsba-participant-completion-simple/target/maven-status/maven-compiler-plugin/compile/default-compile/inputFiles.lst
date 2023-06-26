@@ -1,7 +1,7 @@
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetParticipantBA.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBA.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceBAImpl.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/AlreadyInSetException.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBAService.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/MockSetManager.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceException.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBAService.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/MockSetManager.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/AlreadyInSetException.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBA.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceException.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetParticipantBA.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-participant-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceBAImpl.java

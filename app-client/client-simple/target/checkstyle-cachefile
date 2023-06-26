@@ -1,6 +1,0 @@
-#Sun Jun 25 14:37:20 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/app-client/client-simple/src/main/java/org/jboss/as/quickstarts/appclient/acc/client/Main.java=1687414820802
-/Users/thomas/IdeaProjects/JeeExamples.bak/app-client/client-simple/src/main/java/org/jboss/as/quickstarts/appclient/acc/client/interceptor/ClientInterceptor.java=1687414820803
-/Users/thomas/IdeaProjects/JeeExamples.bak/app-client/client-simple/src/main/resources/META-INF/application-client.xml=1687414820803
-configuration*?=6DC02B67E9DB87319A363DD6B4B685F56BF892F8
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

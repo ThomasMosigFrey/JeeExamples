@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2023 JBoss by Red Hat</copyright>
     <item>
-      <title>File: 5,
+      <title>File: 0,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -44,76 +44,6 @@ under the License.
             </tr>
           </thead>
           <tbody>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jta-crash-rec//checkstyle.html#org.jboss.as.quickstarts.xa.XAServlet.java">org/jboss/as/quickstarts/xa/XAServlet.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jta-crash-rec//checkstyle.html#META-INF.persistence.xml">META-INF/persistence.xml</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jta-crash-rec//checkstyle.html#org.jboss.as.quickstarts.xa.KVPair.java">org/jboss/as/quickstarts/xa/KVPair.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jta-crash-rec//checkstyle.html#org.jboss.as.quickstarts.xa.XAService.java">org/jboss/as/quickstarts/xa/XAService.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jta-crash-rec//checkstyle.html#org.jboss.as.quickstarts.xa.DbUpdaterMDB.java">org/jboss/as/quickstarts/xa/DbUpdaterMDB.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
                       </tbody>
         </table>
         

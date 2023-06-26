@@ -1,7 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.5">
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Bar.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Foo.java">
-</file>
 </checkstyle>

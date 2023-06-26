@@ -1,8 +1,0 @@
-#Sun Jun 25 14:37:42 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-mbean/helloworld-mbean-service/src/main/java/org/jboss/as/quickstarts/mbeanhelloworld/mbean/IHelloWorldMXBean.java=1687414821025
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-mbean/helloworld-mbean-service/src/main/java/org/jboss/as/quickstarts/mbeanhelloworld/mbean/MXPojoHelloWorld.java=1687414821025
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-mbean/helloworld-mbean-service/src/main/resources/META-INF/beans.xml=1687414821026
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-mbean/helloworld-mbean-service/src/main/resources/META-INF/jboss-service.xml=1687414821026
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-mbean/helloworld-mbean-service/src/test/java/org/jboss/as/quickstarts/mbeanhelloworld/mbean/JMXPojoHelloWorldIT.java=1687414821027
-configuration*?=7F1A18685CA638201855819D63E788D4F855C0F7
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

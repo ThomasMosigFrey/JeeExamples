@@ -1,5 +1,5 @@
-#Sun Jun 25 14:37:47 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Bar.java=1687414821076
-/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Foo.java=1687414821077
-configuration*?=276ACCB69CBAA24709AA674FE570B68B2CC40121
+#Sun Jun 25 15:14:20 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Bar.java=1687697275599
+/Users/thomas/IdeaProjects/JeeExamples/inter-app/shared/src/main/java/org/jboss/as/quickstarts/interapp/shared/Foo.java=1687697275599
+configuration*?=400DB97886C147DE46C33BEDAC9A231DE39BE85C
 module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

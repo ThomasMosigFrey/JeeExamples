@@ -29,7 +29,7 @@
     </parent>
 
     <artifactId>bean-validation</artifactId>
-    <packaging>war</packaging>
+    <packaging>ejb</packaging>
     <name>Quickstart: bean-validation</name>
     <description>This project demonstrates Bean Validation</description>
 

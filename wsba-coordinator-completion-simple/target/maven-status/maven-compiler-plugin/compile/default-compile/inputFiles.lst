@@ -1,7 +1,7 @@
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBAService.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceException.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/AlreadyInSetException.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetParticipantBA.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBA.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceBAImpl.java
-/Users/thomas/IdeaProjects/JeeExamples.bak/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/MockSetManager.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceBAImpl.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/MockSetManager.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBAService.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/jaxws/SetServiceBA.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/AlreadyInSetException.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetServiceException.java
+/Users/thomas/IdeaProjects/JeeExamples/wsba-coordinator-completion-simple/src/main/java/org/jboss/as/quickstarts/wsba/coordinatorcompletion/simple/SetParticipantBA.java

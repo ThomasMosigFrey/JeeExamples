@@ -1,6 +1,0 @@
-#Sun Jun 25 14:37:35 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/MainApp.java=1687414820948
-/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/java/org/jboss/as/quickstarts/ejb/multi/server/app/MainAppBean.java=1687414820948
-/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-multi-server/app-main/ejb/src/main/resources/META-INF/ejb-jar.xml=1687414820948
-configuration*?=F2723FA2C3D3F0E26D7D724C0B0E33CC52E25D90
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

@@ -1,8 +1,0 @@
-#Sun Jun 25 14:37:45 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/main/java/org/jboss/as/quickstarts/wshelloworld/HelloWorldService.java=1687414821058
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/main/java/org/jboss/as/quickstarts/wshelloworld/HelloWorldServiceImpl.java=1687414821058
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/Client.java=1687414821060
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/ClientArqIT.java=1687414821060
-/Users/thomas/IdeaProjects/JeeExamples.bak/helloworld-ws/src/test/java/org/jboss/as/quickstarts/wshelloworld/ClientTest.java=1687414821060
-configuration*?=EE30F515505D7395B9D62237F64FDF4AF2165BBD
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

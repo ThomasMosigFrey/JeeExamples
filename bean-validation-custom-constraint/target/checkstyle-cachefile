@@ -1,8 +1,0 @@
-#Sun Jun 25 14:37:27 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/bean-validation-custom-constraint/src/main/java/org/jboss/as/quickstarts/bean_validation_custom_constraint/Address.java=1687689172076
-/Users/thomas/IdeaProjects/JeeExamples.bak/bean-validation-custom-constraint/src/main/java/org/jboss/as/quickstarts/bean_validation_custom_constraint/AddressValidator.java=1687689172076
-/Users/thomas/IdeaProjects/JeeExamples.bak/bean-validation-custom-constraint/src/main/java/org/jboss/as/quickstarts/bean_validation_custom_constraint/Person.java=1687689172077
-/Users/thomas/IdeaProjects/JeeExamples.bak/bean-validation-custom-constraint/src/main/java/org/jboss/as/quickstarts/bean_validation_custom_constraint/PersonAddress.java=1687689172078
-/Users/thomas/IdeaProjects/JeeExamples.bak/bean-validation-custom-constraint/src/test/java/org/jboss/as/quickstarts/bean_validation_custom_constraint/MyPersonIT.java=1687689172080
-configuration*?=4603D60E6128C0CCE9E9FA0DB72A0A3B3AA3E7EF
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2023 JBoss by Red Hat</copyright>
     <item>
-      <title>File: 4,
+      <title>File: 0,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -44,62 +44,6 @@ under the License.
             </tr>
           </thead>
           <tbody>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jts/jts-application-component-1//checkstyle.html#org.jboss.as.quickstarts.cmt.model.Customer.java">org/jboss/as/quickstarts/cmt/model/Customer.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jts/jts-application-component-1//checkstyle.html#META-INF.persistence.xml">META-INF/persistence.xml</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jts/jts-application-component-1//checkstyle.html#org.jboss.as.quickstarts.cmt.jts.ejb.CustomerManagerEJB.java">org/jboss/as/quickstarts/cmt/jts/ejb/CustomerManagerEJB.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://developers.redhat.com/quickstarts/eap/jts/jts-application-component-1//checkstyle.html#org.jboss.as.quickstarts.cmt.controller.CustomerManager.java">org/jboss/as/quickstarts/cmt/controller/CustomerManager.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
                       </tbody>
         </table>
         

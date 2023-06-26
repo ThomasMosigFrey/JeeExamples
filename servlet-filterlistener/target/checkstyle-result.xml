@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="8.5">
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/servlet-filterlistener/src/main/java/org/jboss/as/quickstarts/servlet/filterlistener/VowelRemoverFilter.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/servlet-filterlistener/src/main/java/org/jboss/as/quickstarts/servlet/filterlistener/ParameterDumpingRequestListener.java">
-</file>
-<file name="/Users/thomas/IdeaProjects/JeeExamples.bak/servlet-filterlistener/src/main/java/org/jboss/as/quickstarts/servlet/filterlistener/FilterExampleServlet.java">
-</file>
-</checkstyle>

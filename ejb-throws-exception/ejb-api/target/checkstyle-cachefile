@@ -1,5 +1,0 @@
-#Sun Jun 25 14:37:36 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-throws-exception/ejb-api/src/main/java/org/jboss/as/quickstarts/ear/client/GreeterEJBLocal.java=1687414820983
-/Users/thomas/IdeaProjects/JeeExamples.bak/ejb-throws-exception/ejb-api/src/main/java/org/jboss/as/quickstarts/ear/client/GreeterException.java=1687414820983
-configuration*?=C102EBCCE338958101B7F94D2922F1B3D0D38A50
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

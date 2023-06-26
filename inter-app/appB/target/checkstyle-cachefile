@@ -1,6 +1,6 @@
-#Sun Jun 25 14:37:48 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/BarImpl.java=1687414821074
-/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/ControllerB.java=1687414821074
-/Users/thomas/IdeaProjects/JeeExamples.bak/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/Imports.java=1687414821074
-configuration*?=F10FAA9EE1712B6A7E15FA8657D41A1264918CFF
+#Sun Jun 25 15:14:22 CEST 2023
+/Users/thomas/IdeaProjects/JeeExamples/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/BarImpl.java=1687697275587
+/Users/thomas/IdeaProjects/JeeExamples/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/ControllerB.java=1687697275587
+/Users/thomas/IdeaProjects/JeeExamples/inter-app/appB/src/main/java/org/jboss/as/quickstarts/interapp/appB/Imports.java=1687697275587
+configuration*?=C467AB5062EE194999C590E254488264E8FC58A2
 module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

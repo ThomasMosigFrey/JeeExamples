@@ -17,3 +17,8 @@ jboss/server/minimal/work/**/*
 # deployed package files #
 
 *.DEPLOYED
+**/target/**
+**/*.class
+**/*.war
+**/*.jar
+**/*.ear
