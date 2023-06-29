@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>tasks-jsf</artifactId>
+        <groupId>org.jboss.eap.quickstarts</groupId>
+        <version>7.4.0.GA</version>
+        <relativePath>../tasks-jsf/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>Tag5</artifactId>
+    <name>Archetype - Tag5</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>batch-processing</module>
+        <module>helloworld-jms</module>
+        <module>helloworld-mbean</module>
+        <module>helloworld-mdb-propertysubstitution</module>
+        <module>messaging-clustering-singleton</module>
+    </modules>
+</project>

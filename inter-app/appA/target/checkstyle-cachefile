@@ -1,6 +1,0 @@
-#Sun Jun 25 15:14:21 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples/inter-app/appA/src/main/java/org/jboss/as/quickstarts/interapp/appA/ControllerA.java=1687697275620
-/Users/thomas/IdeaProjects/JeeExamples/inter-app/appA/src/main/java/org/jboss/as/quickstarts/interapp/appA/FooImpl.java=1687697275620
-/Users/thomas/IdeaProjects/JeeExamples/inter-app/appA/src/main/java/org/jboss/as/quickstarts/interapp/appA/Imports.java=1687697275619
-configuration*?=D66B0652D4A59491F1437A860F8F50FE63CDACA5
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

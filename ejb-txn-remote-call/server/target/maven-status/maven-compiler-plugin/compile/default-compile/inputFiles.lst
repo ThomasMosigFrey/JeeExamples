@@ -1,7 +1,0 @@
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/server/StatelessBean.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/entity/CalleeUser.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/server/InfoUtils.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/mock/MockXAResource.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/server/StatefulBean.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/server/RestEndpoints.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ejb-txn-remote-call/server/src/main/java/org/jboss/as/quickstarts/ejb/server/RemoteBeanInterface.java

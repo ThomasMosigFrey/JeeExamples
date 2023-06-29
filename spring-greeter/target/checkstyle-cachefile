@@ -1,9 +1,0 @@
-#Sun Jun 25 12:33:55 CEST 2023
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/java/org/jboss/spring/quickstarts/greeter/greeter_spring/domain/User.java=1687414821235
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/java/org/jboss/spring/quickstarts/greeter/greeter_spring/domain/UserDao.java=1687414821235
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/java/org/jboss/spring/quickstarts/greeter/greeter_spring/domain/UserDaoImpl.java=1687414821235
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/java/org/jboss/spring/quickstarts/greeter/greeter_spring/web/CreateController.java=1687414821236
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/java/org/jboss/spring/quickstarts/greeter/greeter_spring/web/GreetController.java=1687414821236
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-greeter/src/main/resources/META-INF/persistence.xml=1687414821236
-configuration*?=77C8AB7A3AF46CF4B3C49EA910A3BEE0144E60C5
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

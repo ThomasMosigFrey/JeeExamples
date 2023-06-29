@@ -1,8 +1,0 @@
-#Sun Jun 25 15:15:07 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples/jta-crash-rec/src/main/java/org/jboss/as/quickstarts/xa/DbUpdaterMDB.java=1687697275833
-/Users/thomas/IdeaProjects/JeeExamples/jta-crash-rec/src/main/java/org/jboss/as/quickstarts/xa/KVPair.java=1687697275833
-/Users/thomas/IdeaProjects/JeeExamples/jta-crash-rec/src/main/java/org/jboss/as/quickstarts/xa/XAService.java=1687697275832
-/Users/thomas/IdeaProjects/JeeExamples/jta-crash-rec/src/main/java/org/jboss/as/quickstarts/xa/XAServlet.java=1687697275832
-/Users/thomas/IdeaProjects/JeeExamples/jta-crash-rec/src/main/resources/META-INF/persistence.xml=1687697275828
-configuration*?=453770D10D983D29C88F5331E3FA113A44C67964
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

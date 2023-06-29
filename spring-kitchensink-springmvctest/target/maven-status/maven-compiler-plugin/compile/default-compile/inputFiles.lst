@@ -1,5 +1,0 @@
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/controller/MemberController.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/controller/MemberRestController.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/data/MemberDaoImpl.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/data/MemberDao.java
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/spring-kitchensink-springmvctest/src/main/java/org/jboss/as/quickstarts/kitchensink/spring/springmvctest/model/Member.java

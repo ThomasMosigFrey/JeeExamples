@@ -1,7 +1,0 @@
-#Sun Jun 25 15:15:05 CEST 2023
-/Users/thomas/IdeaProjects/JeeExamples/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/controller/CustomerManager.java=1687697275863
-/Users/thomas/IdeaProjects/JeeExamples/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/jts/ejb/CustomerManagerEJB.java=1687697275863
-/Users/thomas/IdeaProjects/JeeExamples/jts/application-component-1/src/main/java/org/jboss/as/quickstarts/cmt/model/Customer.java=1687697275864
-/Users/thomas/IdeaProjects/JeeExamples/jts/application-component-1/src/main/resources/META-INF/persistence.xml=1687697275857
-configuration*?=B2AA22A7C40073FEDA6DE16409A82D4D84011E18
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

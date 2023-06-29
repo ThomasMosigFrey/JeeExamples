@@ -1,6 +1,0 @@
-#Sun Jun 25 12:33:26 CEST 2023
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ha-singleton-service/src/main/java/org/jboss/as/quickstarts/ha/singleton/service/QueryingService.java=1687414821014
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ha-singleton-service/src/main/java/org/jboss/as/quickstarts/ha/singleton/service/SingletonService.java=1687414821014
-/Users/thomas/IdeaProjects/jboss-eap-quickstarts/ha-singleton-service/src/main/java/org/jboss/as/quickstarts/ha/singleton/service/SingletonServiceActivator.java=1687414821014
-configuration*?=C229CA7E8C451976ECE91B23C306A87550FDB479
-module-resource*?\:/wildfly-checkstyle/suppressions.xml=DD3FD5987C62C3034A4613F83C42B24683BCFC2E

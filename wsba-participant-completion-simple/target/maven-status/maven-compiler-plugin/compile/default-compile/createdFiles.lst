@@ -1,7 +1,0 @@
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/AlreadyInSetException.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/MockSetManager.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBA.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/jaxws/SetServiceBAService.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceException.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetParticipantBA.class
-org/jboss/as/quickstarts/wsba/participantcompletion/simple/SetServiceBAImpl.class

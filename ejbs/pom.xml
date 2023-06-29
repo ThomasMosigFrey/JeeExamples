@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>JeeExamples</artifactId>
+        <groupId>org.jboss.eap.quickstarts</groupId>
+        <version>7.4.0.GA</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ejbs</artifactId>
+    <name>Archetype - ejbs</name>
+    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ejb-asynchronous</module>
+        <module>ejb-in-ear</module>
+        <module>ejb-in-war</module>
+        <module>ejb-multi-server</module>
+        <module>ejb-remote</module>
+        <module>ejb-security</module>
+        <module>ejb-security-context-propagation</module>
+        <module>ejb-security-jaas</module>
+        <module>ejb-security-programmatic-auth</module>
+        <module>ejb-throws-exception</module>
+        <module>ejb-timer</module>
+        <module>ejb-txn-remote-call</module>
+    </modules>
+</project>
