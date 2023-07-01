@@ -50,6 +50,7 @@
         <module>Tag2</module>
         <module>Tag3</module>
         <module>Tag4</module>
+        <module>Tag5</module>
         <module>ejbs</module>
         <module>helloworlds</module>
         <module>kitchensinkExample</module>
