@@ -11,22 +11,9 @@
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <modules>
-        <module>app-client</module>
-        <module>contacts-jquerymobile</module>
-        <module>ha-singleton-deployment</module>
-        <module>ha-singleton-service</module>
-        <module>inter-app</module>
-        <module>logging</module>
-        <module>logging-tools</module>
-        <module>mail</module>
         <module>numberguess</module>
         <module>payment-cdi-event</module>
-        <module>servlet-async</module>
         <module>servlet-filterlistener</module>
-        <module>servlet-security</module>
-        <module>tasks-jsf</module>
-        <module>tasks-rs</module>
         <module>temperature-converter</module>
-        <module>todo-backend</module>
     </modules>
 </project>

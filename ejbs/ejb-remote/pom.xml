@@ -46,7 +46,6 @@
      -->
     <modules>
         <module>server-side</module>
-        <module>client</module>
     </modules>
 
     <build>

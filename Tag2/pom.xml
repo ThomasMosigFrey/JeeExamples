@@ -15,8 +15,7 @@
         <module>helloworld-rs</module>
         <module>hibernate</module>
         <module>jaxrs-client</module>
-        <module>jta-crash-rec</module>
-        <module>jts</module>
         <module>jsonp</module>
+        <module>resteasy-jaxrs-client</module>
     </modules>
 </project>

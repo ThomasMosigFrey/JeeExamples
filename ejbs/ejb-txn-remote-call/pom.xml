@@ -38,10 +38,4 @@
         </license>
     </licenses>
 
-    <modules>
-        <!-- application for the first server, the server which calls the second one -->
-        <module>client</module>
-        <!-- application for the second server, the server which is callee and receives the remote call -->
-        <module>server</module>
-    </modules>
 </project>

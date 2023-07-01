@@ -13,10 +13,6 @@
         <module>jaxws-ejb</module>
         <module>jaxws-pojo</module>
         <module>jaxws-retail</module>
-        <module>resteasy-jaxrs-client</module>
-        <module>wsat-simple</module>
-        <module>wsba-coordinator-completion-simple</module>
-        <module>wsba-participant-completion-simple</module>
         <module>xml-jaxp</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
