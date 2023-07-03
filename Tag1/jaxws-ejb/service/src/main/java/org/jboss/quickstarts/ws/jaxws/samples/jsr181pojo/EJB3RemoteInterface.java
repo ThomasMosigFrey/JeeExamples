@@ -17,6 +17,7 @@
 package org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo;
 
 import javax.jws.WebService;
+import java.util.List;
 
 /**
  *
@@ -25,4 +26,7 @@ import javax.jws.WebService;
 @WebService
 public interface EJB3RemoteInterface {
     String echo(String input);
+
+
+    List<String> getPropertyValues(List<String> keys);
 }

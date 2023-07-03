@@ -43,7 +43,7 @@ public class Member implements Serializable {
     private Long id;
 
     @NotNull
-    @Size(min = 1, max = 25)
+    @Size(min = 1, max = 25, message = "must be sized 1-25 characters")
     @Pattern(regexp = "[A-Za-z ]*", message = "must contain only letters and spaces")
     private String name;
 

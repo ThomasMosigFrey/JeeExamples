@@ -19,6 +19,7 @@ package org.jboss.quickstarts.ws.client;
 import java.net.URL;
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
+import java.util.ArrayList;
 
 import org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo.EJB3RemoteInterface;
 
@@ -36,6 +37,7 @@ public class Client {
             Service service = Service.create(wsdlURL, serviceName);
             EJB3RemoteInterface proxy = service.getPort(EJB3RemoteInterface.class);
             System.out.println(proxy.echo("ejbClient calling"));
+            System.out.println(proxy.getPropertyValues(new ArrayList<String>()));
         } catch (Exception e) {
             System.out.println(e);
         }

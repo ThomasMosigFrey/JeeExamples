@@ -102,15 +102,27 @@ public class TestMemberValidationIT {
      * Tests {@code @Pattern} constraint
      */
     @Test
-    public void testNameViolation() {
+    public void testNameDashViolation() {
         Member member = createValidMember();
         member.setName("Joe Doe-Dah");
         Set<ConstraintViolation<Member>> violations = validator.validate(member);
 
         Assert.assertEquals("One violation was found", 1, violations.size());
-        Assert.assertEquals("Name was invalid", "must contain only letters and spaces", violations.iterator().next()
-            .getMessage());
+        Assert.assertEquals("Name was invalid", "must contain only letters and spaces", violations.iterator().next().getMessage());
     }
+    /**
+     * Tests {@code @Pattern} constraint
+     */
+    @Test
+    public void testNameLongViolation() {
+        Member member = createValidMember();
+        member.setName("asdfghjkloiqwertzuimnbvcxy");
+        Set<ConstraintViolation<Member>> violations = validator.validate(member);
+
+        Assert.assertEquals("One violation was found", 1, violations.size());
+        Assert.assertEquals("Name was invalid", "must be sized 1-25 characters", violations.iterator().next().getMessage());
+    }
+
 
     /**
      * Tests {@code @Email} constraint

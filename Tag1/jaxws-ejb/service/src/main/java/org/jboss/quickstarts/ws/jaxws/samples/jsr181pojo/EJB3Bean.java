@@ -16,6 +16,7 @@
  */
 package org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo;
 
+import java.util.List;
 import javax.ejb.Remote;
 import javax.ejb.Stateless;
 import javax.jws.WebMethod;
@@ -32,6 +33,11 @@ import javax.jws.soap.SOAPBinding;
 public class EJB3Bean implements EJB3RemoteInterface {
     @WebMethod
     public String echo(String input) {
-        return "EJB3Bean returning: " + input;
+        return "EJB3Bean returning from webservice: " + input;
+    }
+
+    @WebMethod
+    public List<String> getPropertyValues(List<String> keys) {
+        return keys;
     }
 }

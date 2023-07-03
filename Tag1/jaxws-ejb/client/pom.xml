@@ -37,12 +37,14 @@
     </licenses>
 
     <dependencies>
+        <!--
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>jaxws-ejb-service</artifactId>
             <version>${project.version}</version>
             <classifier>classes</classifier>
         </dependency>
+        -->
         <!-- The JAXWS Client BOM provides application server-compatible dependency management,
         used for building, testing or debugging JAXWS client applications. Import the BOM to the
         dependency management section of the app's pom.xml file and then set dependencies on specific artifacts.
@@ -54,10 +56,34 @@
             <artifactId>wildfly-jaxws-client-bom</artifactId>
             <type>pom</type>
         </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.jboss.ws.plugins</groupId>
+                <artifactId>jaxws-tools-maven-plugin</artifactId>
+                <version>${version.jaxws-tools-maven-plugin}</version>
+                <configuration>
+                    <wsdls>
+                        <wsdl>${basedir}/src/main/resources/ejb3Bean.wsdl</wsdl>
+                    </wsdls>
+                    <fork>false</fork>
+                    <extension>true</extension>
+                    <verbose>false</verbose>
+                    <endpointClass/>
+                    <targetPackage>org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo</targetPackage>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsconsume</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- Allows Client to be run via 'mvn exec:java' -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
