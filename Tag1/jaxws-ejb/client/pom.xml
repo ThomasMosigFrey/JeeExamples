@@ -73,7 +73,7 @@
                     <extension>true</extension>
                     <verbose>false</verbose>
                     <endpointClass/>
-                    <targetPackage>org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo</targetPackage>
+                    <targetPackage>org.jboss.quickstarts.ws.jaxws.samples</targetPackage>
                 </configuration>
                 <executions>
                     <execution>

@@ -93,6 +93,7 @@
       <module name="ejb-throws-exception-web" target="1.8" />
       <module name="ejb-timer" target="1.8" />
       <module name="ha-singleton-deployment" target="1.8" />
+      <module name="helloworldOnly-ws" target="1.8" />
       <module name="jboss-logging" target="1.8" />
       <module name="logging-tools" target="1.8" />
       <module name="mail" target="1.8" />
@@ -147,6 +148,7 @@
       <module name="helloworld-singleton" options="-Xlint:unchecked" />
       <module name="helloworld-ssl" options="-Xlint:unchecked" />
       <module name="helloworld-ws" options="-Xlint:unchecked" />
+      <module name="helloworldOnly-ws" options="-Xlint:unchecked" />
       <module name="hibernate" options="-Xlint:unchecked" />
       <module name="jaxrs-client" options="-Xlint:unchecked" />
       <module name="jaxws-addressing-client" options="-Xlint:unchecked" />
