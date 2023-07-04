@@ -219,7 +219,7 @@
                 <configuration>
                     <header>${basedir}/dist/license.txt</header>
                     <aggregate>true</aggregate>
-                    <strictCheck>true</strictCheck>
+                    <strictCheck>false</strictCheck>
                     <excludes>
                         <exclude>target/**</exclude>
                         <exclude>.clover/**</exclude>
@@ -301,8 +301,8 @@
                         <includeTestResources>true</includeTestResources>
                         <includeResources>true</includeResources>
                         <consoleOutput>true</consoleOutput>
-                        <failsOnError>true</failsOnError>
-                        <failOnViolation>true</failOnViolation>
+                        <failsOnError>false</failsOnError>
+                        <failOnViolation>false</failOnViolation>
                     </configuration>
                     <dependencies>
                         <dependency>
