@@ -46,7 +46,7 @@ public class JsonController {
                 .add(person.getPhone1())
                 .add(person.getPhone2())
             )
-            .add("addrees", Json.createObjectBuilder()
+            .add("address", Json.createObjectBuilder()
                 .add("street", person.getAddressStreet())
                 .add("apt", person.getAddressApt())
                 .add("city", person.getAddressCity())

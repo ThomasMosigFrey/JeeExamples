@@ -99,6 +99,12 @@
             <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mavenlibs.com/maven/dependency/org.glassfish/javax.json -->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.1.4</version>
+        </dependency>
 
     </dependencies>
 

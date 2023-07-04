@@ -17,9 +17,15 @@
 package org.jboss.as.quickstarts.rshelloworld;
 
 import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.Path;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+
+import java.util.List;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
 /**
  * A simple REST service which is able to say hello to someone using HelloService Please take a look at the web.xml where JAX-RS
@@ -29,23 +35,38 @@ import javax.ws.rs.Produces;
  *
  */
 
-@Path("/")
+@Path("/helloWorld")
 public class HelloWorld {
     @Inject
     HelloService helloService;
 
     @GET
     @Path("/json")
-    @Produces({ "application/json" })
+    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public String getHelloWorldJSON() {
         return "{\"result\":\"" + helloService.createHelloMessage("World") + "\"}";
     }
 
     @GET
     @Path("/xml")
-    @Produces({ "application/xml" })
+    @Produces({ MediaType.APPLICATION_XML })
     public String getHelloWorldXML() {
         return "<xml><result>" + helloService.createHelloMessage("World") + "</result></xml>";
     }
 
+    @POST
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
+    public Response createContactArray(List<String> contactData) {
+        Response.ResponseBuilder builder = null;
+        try {
+            contactData.add("added Element");
+            builder = Response.ok().entity(contactData);
+        } catch (Exception e) {
+            // Handle generic exceptions
+            e.printStackTrace();
+            builder = Response.status(Response.Status.BAD_REQUEST).entity(e.getMessage());
+        }
+        return builder.build();
+    }
 }
