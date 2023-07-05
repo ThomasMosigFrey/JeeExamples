@@ -17,5 +17,8 @@
         <module>websocket-client</module>
         <module>websocket-endpoint</module>
         <module>websocket-hello</module>
+        <module>helloworld-jms</module>
+        <module>helloworld-mdb</module>
+        <module>helloworld-mdb-propertysubstitution</module>
     </modules>
 </project>

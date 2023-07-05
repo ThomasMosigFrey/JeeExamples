@@ -49,6 +49,16 @@
     <file url="file://$PROJECT_DIR$/Tag2/resteasy-jaxrs-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/bmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/bmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/cmt/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/cmt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-jms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-jms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-mdb-propertysubstitution/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-mdb-propertysubstitution/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-mdb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/helloworld-mdb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/hibernate/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/hibernate/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/src/main/java" charset="UTF-8" />
@@ -59,10 +69,6 @@
     <file url="file://$PROJECT_DIR$/Tag3/websocket-endpoint/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/websocket-hello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/websocket-hello/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag4/bmt/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag4/bmt/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag4/cmt/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag4/cmt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag4/managed-executor-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag4/managed-executor-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag4/src/main/java" charset="UTF-8" />
@@ -71,18 +77,12 @@
     <file url="file://$PROJECT_DIR$/Tag4/thread-racing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/batch-processing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/batch-processing/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-jms/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-jms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/helloworld-mbean-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/helloworld-mbean-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/helloworld-mbean-webapp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/helloworld-mbean-webapp/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/helloworld-mbean/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-mdb-propertysubstitution/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-mdb-propertysubstitution/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-mdb/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag5/helloworld-mdb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/messaging-clustering-singleton/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/messaging-clustering-singleton/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/src/main/java" charset="UTF-8" />

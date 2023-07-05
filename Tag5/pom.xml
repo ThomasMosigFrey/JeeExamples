@@ -12,10 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>batch-processing</module>
-        <module>helloworld-jms</module>
         <module>helloworld-mbean</module>
-        <module>helloworld-mdb</module>
-        <module>helloworld-mdb-propertysubstitution</module>
         <module>messaging-clustering-singleton</module>
     </modules>
 </project>

@@ -79,7 +79,6 @@ public class BidWebSocketEndpoint {
     public void onOpen(Session session) {
         logger.info("New websocket session opened: " + session.getId());
         clients.add(session);
-
     }
 
     // remove the session after it's closed
@@ -93,16 +92,18 @@ public class BidWebSocketEndpoint {
     // The Message object is "decoded" by the MessageDecoder class
     @OnMessage
     public void onMessage(Session session, Message message) throws IOException, EncodeException {
-        if (message.getCommand().equals("newBid")) {
-            Bidding bidding = BiddingFactory.getBidding();
-            bidding.addBid(new Bid(session.getId(), message.getBidValue()));
-        }
-        if (message.getCommand().equals("buyItNow")) {
-            Bidding bidding = BiddingFactory.getBidding();
-            bidding.buyItNow();
-        }
-        if (message.getCommand().equals("resetBid")) {
-            BiddingFactory.resetBidding();
+        if(clients.contains(session)) {
+            if (message.getCommand().equals("newBid")) {
+                Bidding bidding = BiddingFactory.getBidding();
+                bidding.addBid(new Bid(session.getId(), message.getBidValue()));
+            }
+            if (message.getCommand().equals("buyItNow")) {
+                Bidding bidding = BiddingFactory.getBidding();
+                bidding.buyItNow();
+            }
+            if (message.getCommand().equals("resetBid")) {
+                BiddingFactory.resetBidding();
+            }
         }
         notifyAllSessions(BiddingFactory.getBidding());
     }
@@ -118,6 +119,5 @@ public class BidWebSocketEndpoint {
         for (Session s : clients) {
             s.getBasicRemote().sendObject(bidding);
         }
-
     }
 }
