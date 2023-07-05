@@ -13,7 +13,6 @@
     <modules>
         <module>greeter</module>
         <module>helloworld-rs</module>
-        <module>hibernate</module>
         <module>jaxrs-client</module>
         <module>jsonp</module>
         <module>resteasy-jaxrs-client</module>

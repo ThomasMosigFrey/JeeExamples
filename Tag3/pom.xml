@@ -11,6 +11,7 @@
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <modules>
+        <module>hibernate</module>
         <module>websocket-client</module>
         <module>websocket-endpoint</module>
         <module>websocket-hello</module>
