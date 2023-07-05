@@ -41,8 +41,6 @@
     <file url="file://$PROJECT_DIR$/Tag2/greeter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/helloworld-rs/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/helloworld-rs/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag2/hibernate/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Tag2/hibernate/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/jaxrs-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/jaxrs-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/jsonp/src/main/java" charset="UTF-8" />
@@ -51,6 +49,8 @@
     <file url="file://$PROJECT_DIR$/Tag2/resteasy-jaxrs-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag3/hibernate/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag3/websocket-client/src/main/java" charset="UTF-8" />
