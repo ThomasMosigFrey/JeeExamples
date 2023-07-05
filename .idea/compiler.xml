@@ -1,33 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Tag1/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Tag2/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Tag3/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Tag4/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Tag5/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/spring/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ejbs/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/helloworlds/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/kitchensinkExample/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/general/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jsonp" />
+        <module name="mail" />
         <module name="kitchensink-angularjs" />
+        <module name="app-client-client-simple" />
+        <module name="servlet-security" />
         <module name="bmt" />
+        <module name="contacts-jquerymobile" />
         <module name="jaxws-retail-client" />
         <module name="jaxws-retail-service" />
         <module name="payment-cdi-event" />
         <module name="jaxrs-client" />
         <module name="greeter" />
         <module name="helloworld" />
+        <module name="ejb-multi-server-app-main-ear" />
         <module name="helloworld-mdb-propertysubstitution" />
         <module name="bean-validation" />
+        <module name="inter-app-shared" />
         <module name="kitchensink-ml" />
         <module name="ejb-remote-server-side" />
+        <module name="ejb-multi-server-app-main-web" />
         <module name="helloworld-html5" />
         <module name="kitchensink-ear-ear" />
+        <module name="ejb-txn-remote-call-server" />
         <module name="helloworld-jms" />
         <module name="kitchensink-ear-web" />
         <module name="jaxws-pojo-client" />
         <module name="batch-processing" />
         <module name="servlet-filterlistener" />
+        <module name="ejb-multi-server-app-main-ejb" />
         <module name="websocket-hello" />
+        <module name="ha-singleton-service" />
+        <module name="inter-app-appA" />
         <module name="helloworld-rs" />
+        <module name="inter-app-appB" />
+        <module name="ejb-remote-client" />
         <module name="thread-racing" />
         <module name="helloworld-mdb" />
         <module name="managed-executor-service" />
@@ -38,45 +63,52 @@
         <module name="helloworld-mutual-ssl-secured" />
         <module name="kitchensink" />
         <module name="numberguess" />
+        <module name="ha-singleton-deployment" />
+        <module name="ejb-multi-server-client" />
         <module name="cmt" />
+        <module name="jboss-logging" />
         <module name="hibernate" />
         <module name="resteasy-jaxrs-client" />
         <module name="websocket-client" />
+        <module name="ejb-throws-exception-ear" />
         <module name="helloworld-ssl" />
         <module name="helloworld-ws" />
+        <module name="ejb-throws-exception-ejb" />
+        <module name="ejb-throws-exception-ejb-api" />
+        <module name="wsba-participant-completion-simple" />
         <module name="messaging-clustering-singleton" />
+        <module name="ejb-throws-exception-web" />
+        <module name="logging-tools" />
         <module name="jaxws-pojo-service" />
         <module name="jaxws-ejb-service" />
+        <module name="ejb-timer" />
+        <module name="ejb-asynchronous-client" />
+        <module name="todo-backend" />
+        <module name="ejb-security-programmatic-auth" />
+        <module name="app-client-ejb" />
         <module name="temperature-converter" />
+        <module name="ejb-txn-remote-call-client" />
+        <module name="app-client-ear" />
         <module name="xml-jaxp" />
+        <module name="wsba-coordinator-completion-simple" />
         <module name="jaxws-addressing-client" />
         <module name="helloworld-mbean-webapp" />
         <module name="helloworld-singleton" />
+        <module name="servlet-async" />
         <module name="bean-validation-custom-constraint" />
         <module name="websocket-endpoint" />
+        <module name="tasks-rs" />
         <module name="kitchensink-jsp" />
+        <module name="ejb-in-war" />
+        <module name="ejb-asynchronous-ejb" />
         <module name="jaxws-addressing-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app-client" target="1.8" />
-      <module name="app-client-client-simple" target="1.8" />
-      <module name="app-client-ear" target="1.8" />
-      <module name="app-client-ejb" target="1.8" />
-      <module name="contacts-jquerymobile" target="1.8" />
-      <module name="ejb-asynchronous" target="1.8" />
-      <module name="ejb-asynchronous-client" target="1.8" />
-      <module name="ejb-asynchronous-ejb" target="1.8" />
       <module name="ejb-in-ear" target="1.8" />
       <module name="ejb-in-ear-ear" target="1.8" />
       <module name="ejb-in-ear-ejb" target="1.8" />
       <module name="ejb-in-ear-web" target="1.8" />
-      <module name="ejb-in-war" target="1.8" />
-      <module name="ejb-multi-server" target="1.8" />
-      <module name="ejb-multi-server-app-main" target="1.8" />
-      <module name="ejb-multi-server-app-main-ear" target="1.8" />
-      <module name="ejb-multi-server-app-main-ejb" target="1.8" />
-      <module name="ejb-multi-server-app-main-web" target="1.8" />
       <module name="ejb-multi-server-app-one" target="1.8" />
       <module name="ejb-multi-server-app-one-ear" target="1.8" />
       <module name="ejb-multi-server-app-one-ejb" target="1.8" />
@@ -84,26 +116,23 @@
       <module name="ejb-multi-server-app-two-ear" target="1.8" />
       <module name="ejb-multi-server-app-two-ejb" target="1.8" />
       <module name="ejb-multi-server-app-web" target="1.8" />
-      <module name="ejb-multi-server-client" target="1.8" />
       <module name="ejb-security" target="1.8" />
-      <module name="ejb-throws-exception" target="1.8" />
-      <module name="ejb-throws-exception-ear" target="1.8" />
-      <module name="ejb-throws-exception-ejb" target="1.8" />
-      <module name="ejb-throws-exception-ejb-api" target="1.8" />
-      <module name="ejb-throws-exception-web" target="1.8" />
-      <module name="ejb-timer" target="1.8" />
-      <module name="ha-singleton-deployment" target="1.8" />
+      <module name="ejb-security-context-propagation" target="1.8" />
+      <module name="ejb-security-jaas" target="1.8" />
       <module name="helloworldOnly-ws" target="1.8" />
-      <module name="jboss-logging" target="1.8" />
-      <module name="logging-tools" target="1.8" />
-      <module name="mail" target="1.8" />
-      <module name="servlet-async" target="1.8" />
+      <module name="jta-crash-rec" target="1.8" />
+      <module name="jts" target="1.8" />
+      <module name="jts-application-component-1" target="1.8" />
+      <module name="jts-application-component-2" target="1.8" />
       <module name="shopping-cart" target="1.8" />
       <module name="shopping-cart-client" target="1.8" />
       <module name="shopping-cart-server" target="1.8" />
-      <module name="tasks-jsf" target="1.8" />
-      <module name="tasks-rs" target="1.8" />
-      <module name="todo-backend" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-greeter" target="1.8" />
+      <module name="spring-kitchensink-basic" target="1.8" />
+      <module name="spring-kitchensink-springmvctest" target="1.8" />
+      <module name="spring-resteasy" target="1.8" />
+      <module name="wsat-simple" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -127,14 +156,19 @@
       <module name="ejb-multi-server-app-two-ejb" options="-Xlint:unchecked" />
       <module name="ejb-multi-server-app-web" options="-Xlint:unchecked" />
       <module name="ejb-multi-server-client" options="-Xlint:unchecked" />
+      <module name="ejb-remote-client" options="-Xlint:unchecked" />
       <module name="ejb-remote-server-side" options="-Xlint:unchecked" />
       <module name="ejb-security" options="-Xlint:unchecked" />
+      <module name="ejb-security-programmatic-auth" options="-Xlint:unchecked" />
       <module name="ejb-throws-exception-ejb" options="-Xlint:unchecked" />
       <module name="ejb-throws-exception-ejb-api" options="-Xlint:unchecked" />
       <module name="ejb-throws-exception-web" options="-Xlint:unchecked" />
       <module name="ejb-timer" options="-Xlint:unchecked" />
+      <module name="ejb-txn-remote-call-client" options="-Xlint:unchecked" />
+      <module name="ejb-txn-remote-call-server" options="-Xlint:unchecked" />
       <module name="greeter" options="-Xlint:unchecked" />
       <module name="ha-singleton-deployment" options="-Xlint:unchecked" />
+      <module name="ha-singleton-service" options="-Xlint:unchecked" />
       <module name="helloworld" options="-Xlint:unchecked" />
       <module name="helloworld-html5" options="-Xlint:unchecked" />
       <module name="helloworld-jms" options="-Xlint:unchecked" />
@@ -150,6 +184,9 @@
       <module name="helloworld-ws" options="-Xlint:unchecked" />
       <module name="helloworldOnly-ws" options="-Xlint:unchecked" />
       <module name="hibernate" options="-Xlint:unchecked" />
+      <module name="inter-app-appA" options="-Xlint:unchecked" />
+      <module name="inter-app-appB" options="-Xlint:unchecked" />
+      <module name="inter-app-shared" options="-Xlint:unchecked" />
       <module name="jaxrs-client" options="-Xlint:unchecked" />
       <module name="jaxws-addressing-client" options="-Xlint:unchecked" />
       <module name="jaxws-addressing-service" options="-Xlint:unchecked" />
@@ -176,9 +213,10 @@
       <module name="resteasy-jaxrs-client" options="-Xlint:unchecked" />
       <module name="servlet-async" options="-Xlint:unchecked" />
       <module name="servlet-filterlistener" options="-Xlint:unchecked" />
+      <module name="servlet-security" options="-Xlint:unchecked" />
       <module name="shopping-cart-client" options="-Xlint:unchecked" />
       <module name="shopping-cart-server" options="-Xlint:unchecked" />
-      <module name="tasks-jsf" options="-Xlint:unchecked" />
+      <module name="tasks-jsf" options="" />
       <module name="tasks-rs" options="-Xlint:unchecked" />
       <module name="temperature-converter" options="-Xlint:unchecked" />
       <module name="thread-racing" options="-Xlint:unchecked" />
@@ -186,6 +224,8 @@
       <module name="websocket-client" options="-Xlint:unchecked" />
       <module name="websocket-endpoint" options="-Xlint:unchecked" />
       <module name="websocket-hello" options="-Xlint:unchecked" />
+      <module name="wsba-coordinator-completion-simple" options="-Xlint:unchecked" />
+      <module name="wsba-participant-completion-simple" options="-Xlint:unchecked" />
       <module name="xml-jaxp" options="-Xlint:unchecked" />
     </option>
   </component>

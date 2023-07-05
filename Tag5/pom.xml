@@ -11,8 +11,9 @@
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <modules>
-        <module>batch-processing</module>
         <module>helloworld-mbean</module>
         <module>messaging-clustering-singleton</module>
+        <module>ha-singleton-deployment</module>
+        <module>ha-singleton-service</module>
     </modules>
 </project>
