@@ -12,6 +12,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>hibernate</module>
+        <module>bmt</module>
+        <module>cmt</module>
         <module>websocket-client</module>
         <module>websocket-endpoint</module>
         <module>websocket-hello</module>

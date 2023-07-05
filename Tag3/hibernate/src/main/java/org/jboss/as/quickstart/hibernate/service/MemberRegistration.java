@@ -16,11 +16,15 @@
  */
 package org.jboss.as.quickstart.hibernate.service;
 
+import java.util.List;
 import java.util.logging.Logger;
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnit;
+import javax.persistence.Query;
 
 import org.hibernate.Session;
 import org.jboss.as.quickstart.hibernate.model.Member;
@@ -39,8 +43,8 @@ public class MemberRegistration {
     @Inject
     private Logger log;
 
-    @Inject
-    private EntityManager em;
+    @PersistenceUnit(name = "primary")
+    private EntityManagerFactory emf;
 
     @Inject
     private Event<Member> memberEventSrc;
@@ -48,6 +52,7 @@ public class MemberRegistration {
     public void register(Member member) throws Exception {
         log.info("Registering " + member.getName());
         // em.persist(member);
+        EntityManager em = emf.createEntityManager();
 
         // using Hibernate session(Native API) and JPA entitymanager
         Session session = (Session) em.getDelegate();
