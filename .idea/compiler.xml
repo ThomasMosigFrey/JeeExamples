@@ -181,6 +181,9 @@
       <module name="jts" target="1.8" />
       <module name="jts-application-component-1" target="1.8" />
       <module name="jts-application-component-2" target="1.8" />
+      <module name="managed-scheduled-executor-service" target="20" />
+      <module name="managed-scheduled-executor-service.main" target="20" />
+      <module name="managed-scheduled-executor-service.test" target="1.8" />
       <module name="shopping-cart" target="1.8" />
       <module name="shopping-cart-client" target="1.8" />
       <module name="shopping-cart-server" target="1.8" />
@@ -348,6 +351,9 @@
       <module name="managed-executor-service" options="-Xlint:unchecked" />
       <module name="managed-executor-service.main" options="-Xlint:unchecked" />
       <module name="managed-executor-service.test" options="-Xlint:unchecked" />
+      <module name="managed-scheduled-executor-service" options="-Xlint:unchecked" />
+      <module name="managed-scheduled-executor-service.main" options="-Xlint:unchecked" />
+      <module name="managed-scheduled-executor-service.test" options="-Xlint:unchecked" />
       <module name="messaging-clustering-singleton" options="-Xlint:unchecked" />
       <module name="messaging-clustering-singleton.main" options="-Xlint:unchecked" />
       <module name="messaging-clustering-singleton.test" options="-Xlint:unchecked" />

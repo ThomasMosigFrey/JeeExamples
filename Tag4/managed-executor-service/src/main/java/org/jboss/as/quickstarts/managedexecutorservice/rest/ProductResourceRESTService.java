@@ -16,12 +16,15 @@
  */
 package org.jboss.as.quickstarts.managedexecutorservice.rest;
 
+import java.util.Date;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
 import javax.annotation.Resource;
 import javax.enterprise.concurrent.ManagedExecutorService;
+import javax.enterprise.concurrent.ManagedScheduledExecutorService;
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
 import javax.ws.rs.Consumes;
@@ -46,6 +49,9 @@ public class ProductResourceRESTService {
 
     @Resource
     private ManagedExecutorService managedExecutorService;
+
+    @Resource
+    private ManagedScheduledExecutorService managedScheduledExecutorService;
 
     // Here we use Instance so PersistTask can have CDI injections available
     @Inject
@@ -89,6 +95,7 @@ public class ProductResourceRESTService {
 
     @GET
     @Path("/longrunningtask")
+    @Produces(MediaType.APPLICATION_JSON)
     public String processLongRunningTask() throws InterruptedException, ExecutionException {
         LongRunningTask lrt = longRunningTaskIntance.get();
         log.info("Submitting a new long running task to be executed");
@@ -104,7 +111,39 @@ public class ProductResourceRESTService {
         return "Result: " + result;
     }
 
+    @GET
+    @Path("/scheduledlongrunningtask")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String processScheduledLongRunningTask() throws InterruptedException, ExecutionException {
+        LongRunningTask lrt = longRunningTaskIntance.get();
+        log.info("Submitting a new long running task to be executed");
+        Future<Integer> futureResult = managedScheduledExecutorService.schedule(lrt, 10, TimeUnit.SECONDS);
+        // wait for the result to be available
+        while (!futureResult.isDone()) {
+            log.info("Waiting for the result to be available...");
+            Thread.sleep(1000);
+        }
+        Integer result = futureResult.get();
+        log.info("Result is available. Returning result..." + result);
+        // Return the result
+        return "Result: " + result;
+    }
+    @GET
+    @Path("/ratescheduledlongrunningtask")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String processRateScheduledLongRunningTask() throws InterruptedException, ExecutionException {
+        Product product = new Product();
+        product.setName(new Date().toString());
+        PersitTask pt = persisTaskInstance.get();
+        pt.setProduct(product);
+        log.info("Submitting a new long running task to be executed");
+        managedScheduledExecutorService.scheduleAtFixedRate(pt,0, 10, TimeUnit.SECONDS);
+        return "Result: PersistTask schedule started";
+    }
+
     @DELETE
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public Response deleteAllProducts() {
         DeleteTask dt = deleteTaskInstance.get();
         // Delete all Products on a separated Thread

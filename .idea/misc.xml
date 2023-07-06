@@ -11,6 +11,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Tag1/helloworldOnly-ws/pom.xml" />
+        <option value="$PROJECT_DIR$/Tag4/managed-scheduled-executor-service/pom.xml" />
       </set>
     </option>
   </component>
