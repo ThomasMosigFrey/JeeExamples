@@ -102,6 +102,11 @@ public class BatchController {
         startImport();
     }
 
+    public void startLoopTest() {
+        JobOperator jobOperator = BatchRuntime.getJobOperator();
+        long execID = jobOperator.start("orderTest", new Properties());
+    }
+
     public void startImport() {
         JobOperator jobOperator = BatchRuntime.getJobOperator();
         Properties jobParameters = new Properties();

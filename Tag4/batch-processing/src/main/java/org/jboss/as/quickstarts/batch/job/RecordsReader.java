@@ -57,7 +57,7 @@ public class RecordsReader implements ItemReader {
 
     @Override
     public void open(Serializable previousCheckpoint) throws Exception {
-        // Verify if we have an previous checkpoint
+        // Verify if we have a previous checkpoint
         if (previousCheckpoint == null) {
             this.checkpoint = new ChunkCheckpoint();
         }

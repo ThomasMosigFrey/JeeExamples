@@ -21,27 +21,20 @@ import java.util.logging.Logger;
 import javax.batch.api.Batchlet;
 import javax.inject.Inject;
 import javax.inject.Named;
-import javax.persistence.EntityManager;
+
 
 //This batchlet just reports how many records was imported to database
-@Named("reportBatchelet")
-public class ReportBatchelet implements Batchlet {
-
-    @Inject
-    private EntityManager entityManager;
-
+@Named("simpleBatchelet")
+public class SimpleBatchelet implements Batchlet {
     @Inject
     private Logger log;
-
     @Override
     public String process() throws Exception {
-        long contacts = (long) entityManager.createQuery("SELECT COUNT(c) FROM Contact c").getSingleResult();
-        log.info("Imported " + contacts + " contacts into the database.");
-        return "END";
+        log.info("Processing started");
+        return "SUCCESS";
     }
 
     @Override
     public void stop() throws Exception {
-
     }
 }

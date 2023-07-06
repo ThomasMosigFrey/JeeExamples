@@ -65,6 +65,11 @@
                             <h:commandButton styleClass="btn btn-default btn-sm" action="#{batchController.startImport()}" value="Start import Job" >
                                 <f:ajax execute="@form"  render="@form"/>
                             </h:commandButton>
+
+                            <h:commandButton styleClass="btn btn-default btn-sm" action="#{batchController.startLoopTest()}" value="Start looptest Job" >
+                                <f:ajax execute="@form"  render="@form"/>
+                            </h:commandButton>
+
                     </div>
                     <div style="padding-top: 3em;">
                         <h:messages globalOnly="true" errorStyle="color: red;" warnStyle="color: yellow;"/>

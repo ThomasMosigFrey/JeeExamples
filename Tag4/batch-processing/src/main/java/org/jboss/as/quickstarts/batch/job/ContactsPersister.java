@@ -46,7 +46,6 @@ public class ContactsPersister extends AbstractItemWriter {
             entityManager.createQuery("DELETE FROM Contact c").executeUpdate();
             hasCheckPoint = true;
         }
-
     }
 
     @Override

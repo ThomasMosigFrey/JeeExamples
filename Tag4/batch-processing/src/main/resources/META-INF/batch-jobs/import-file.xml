@@ -21,12 +21,21 @@
     <listeners>
         <listener ref="jobListener" />
     </listeners>
+    <split id="reportSplit" next="reportFlow">
+
+
+    </split>
+    <flow id="reportFlow" next="import-file-chunk">
+
+    </flow>
+
+
     <step id="import-file-chunk" next="reportBatchelet">
         <listeners>
             <listener ref="persistListener" />
         </listeners>
         <!-- The item-count specified the size of the chunk -->
-        <chunk item-count="3">
+        <chunk item-count="30">
             <reader ref="recordsReader">
                 <properties>
                     <!--  Define how values are separated -->
