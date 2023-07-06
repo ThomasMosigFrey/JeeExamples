@@ -29,10 +29,10 @@ public class HelloWorldJMSReceiverClient {
     // Set up all the default values
     private static final String DEFAULT_MESSAGE = "Hello, World!";
     private static final String DEFAULT_CONNECTION_FACTORY = "jms/RemoteConnectionFactory";
-    private static final String DEFAULT_DESTINATION = "java:/jms/queue/ExpiryQueue";
+    private static final String DEFAULT_DESTINATION = "jms/queue/TestQueue";
     private static final String DEFAULT_MESSAGE_COUNT = "1";
-    private static final String DEFAULT_USERNAME = "quickstartUser";
-    private static final String DEFAULT_PASSWORD = "quickstartPwd1!";
+    private static final String DEFAULT_USERNAME = "quickstartuser";
+    private static final String DEFAULT_PASSWORD = "quickstartuser";
     private static final String INITIAL_CONTEXT_FACTORY = "org.wildfly.naming.client.WildFlyInitialContextFactory";
     private static final String PROVIDER_URL = "http-remoting://127.0.0.1:8080";
 
@@ -72,7 +72,7 @@ public class HelloWorldJMSReceiverClient {
                 JMSConsumer consumer = context.createConsumer(destination);
                 // Then receive the same number of messages that were sent
                 for (int i = 0; i < count; i++) {
-                    String text = consumer.receiveBody(String.class, 5000);
+                    String text = consumer.receiveBody(String.class, 15000);
                     log.info("Received message with content " + text);
                 }
             }

@@ -19,9 +19,11 @@ package org.jboss.as.quickstarts.managedexecutorservice.rest;
 import java.util.Date;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
+import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
 import javax.enterprise.concurrent.ManagedExecutorService;
 import javax.enterprise.concurrent.ManagedScheduledExecutorService;
@@ -64,6 +66,8 @@ public class ProductResourceRESTService {
     // Here we use Instance so DeleteTask can have CDI injections available
     @Inject
     private Instance<DeleteTask> deleteTaskInstance;
+
+    private ScheduledFuture managedSchedule = null;
 
     /**
      * Creates a new contact from the values provided and will return a JAX-RS response with either 200 ok, or 400 (BAD REQUEST)
@@ -137,7 +141,10 @@ public class ProductResourceRESTService {
         PersitTask pt = persisTaskInstance.get();
         pt.setProduct(product);
         log.info("Submitting a new long running task to be executed");
-        managedScheduledExecutorService.scheduleAtFixedRate(pt,0, 10, TimeUnit.SECONDS);
+        if(managedSchedule != null) {
+            managedSchedule.cancel(true);
+        }
+        managedSchedule = managedScheduledExecutorService.scheduleAtFixedRate(pt,0, 10, TimeUnit.SECONDS);
         return "Result: PersistTask schedule started";
     }
 
@@ -151,5 +158,11 @@ public class ProductResourceRESTService {
         managedExecutorService.execute(dt);
         log.info("Returning response");
         return Response.ok().build();
+    }
+
+    @PreDestroy
+    public void destroy() {
+        if(! managedSchedule.isDone() )
+            managedSchedule.cancel(true);
     }
 }

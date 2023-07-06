@@ -17,8 +17,7 @@
 package org.jboss.quickstarts.ws.jaxws.samples.jsr181pojo;
 
 import java.util.List;
-import javax.ejb.Remote;
-import javax.ejb.Stateless;
+import javax.ejb.*;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
