@@ -57,8 +57,8 @@
         <module>general</module>
     </modules>
     <properties>
-        <maven.compiler.target>20</maven.compiler.target>
-        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
         <maven.compiler.testSource>1.8</maven.compiler.testSource>
         <maven.plugin.validation>VERBOSE</maven.plugin.validation>
