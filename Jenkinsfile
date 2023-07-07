@@ -2,7 +2,6 @@ pipeline {
     agent any
     tools {
         maven 'maven393'
-        jdk 'jdk17'
     }
     stages {
         stage('clean package') {
