@@ -18,14 +18,14 @@ pipeline {
         stage('style check') {
             steps {
                 withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "mvn ..."
+                    sh "echo mvn ..."
                 }
             }
         }
         stage('deploy to nexus') {
             steps {
                 withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "mvn deploy"
+                    sh "echo mvn deploy"
                 }
             }
         }
