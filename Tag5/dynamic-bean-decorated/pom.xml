@@ -57,6 +57,42 @@
             <artifactId>jboss-websocket-api_1.1_spec</artifactId>
             <scope>provided</scope>
         </dependency>
+        <!-- Needed for running tests (you may also use TestNG) -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Bean Validation Implementation
+             Provides portable constraints such as @Email
+             Hibernate Validator is shipped in JBoss EAP -->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <scope>provided</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- Import the JPA API, we use provided scope as the API is included in JBoss EAP -->
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Arquillian allows you to test enterprise code such as EJBs and
+            Transactional(JTA) JPA from JUnit/TestNG -->
+        <dependency>
+            <groupId>org.jboss.arquillian.junit</groupId>
+            <artifactId>arquillian-junit-container</artifactId>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 </project>
