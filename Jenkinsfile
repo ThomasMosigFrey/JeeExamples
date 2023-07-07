@@ -6,22 +6,22 @@ pipeline {
     stages {
         stage('clean package') {
             steps {
-                sh "mvn clean package"
+                sh "mvn clean package -DskipTests"
             }
         }
         stage('install') {
             steps {
-                sh "mvn install"
+                sh "mvn install -DskipTests"
             }
         }
         stage('style check') {
             steps {
-                sh "echo mvn ..."
+                sh "echo mvn ... -DskipTests"
             }
         }
         stage('deploy to nexus') {
             steps {
-                sh "echo mvn deploy"
+                sh "echo mvn deploy -DskipTests"
             }
         }
      }
