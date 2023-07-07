@@ -92,6 +92,12 @@
     <file url="file://$PROJECT_DIR$/Tag4/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag4/thread-racing/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag4/thread-racing/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/dynamic-bean-decorated/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/dynamic-bean-decorated/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/events-async/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/events-async/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/events-priority/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tag5/events-priority/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/ha-singleton-deployment/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/ha-singleton-deployment/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Tag5/ha-singleton-service/src/main/java" charset="UTF-8" />

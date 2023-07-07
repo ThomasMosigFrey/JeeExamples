@@ -13,5 +13,8 @@
     <modules>
         <module>helloworld-mbean</module>
         <module>messaging-clustering-singleton</module>
+        <module>events-async</module>
+        <module>events-priority</module>
+        <module>dynamic-bean-decorated</module>
     </modules>
 </project>

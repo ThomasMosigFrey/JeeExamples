@@ -12,7 +12,7 @@
             <c:clustered-singleton>true</c:clustered-singleton>
         </c:clustering>
         <d:delivery>
-                <ejb-name>HelloWorldTopicMDB</ejb-name>
+                <ejb-name>*</ejb-name>
                 <d:group>my-mdb-delivery-group</d:group>
         </d:delivery>
     </assembly-descriptor>

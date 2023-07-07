@@ -35,6 +35,7 @@ import javax.batch.operations.NoSuchJobException;
 import javax.batch.runtime.BatchRuntime;
 import javax.batch.runtime.JobExecution;
 import javax.batch.runtime.JobInstance;
+import javax.enterprise.context.SessionScoped;
 import javax.enterprise.inject.Model;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;

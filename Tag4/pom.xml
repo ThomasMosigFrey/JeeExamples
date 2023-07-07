@@ -11,9 +11,7 @@
     <url>http://maven.apache.org</url>
     <packaging>pom</packaging>
     <modules>
-        <module>managed-executor-service</module>
         <module>thread-racing</module>
         <module>batch-processing</module>
-        <module>managed-scheduled-executor-service</module>
     </modules>
 </project>
