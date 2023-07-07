@@ -256,8 +256,11 @@
                 <configuration>
                     <username>admin</username>
                     <password>admin</password>
-                    <hostname>localhost</hostname>
+                    <hostname>10.10.11.150</hostname>
                     <port>9990</port>
+                    <server-groups>
+                        <server-group>main-server-group</server-group>
+                    </server-groups>
                 </configuration>
             </plugin>
         </plugins>
