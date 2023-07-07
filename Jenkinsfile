@@ -1,32 +1,28 @@
 pipeline {
     agent any
+    tools {
+        maven 'maven393'
+        jdk 'jdk17'
+    }
     stages {
         stage('clean package') {
             steps {
-                withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "mvn clean package"
-                }
+                sh "mvn clean package"
             }
         }
         stage('install') {
             steps {
-                withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "mvn install"
-                }
+                sh "mvn install"
             }
         }
         stage('style check') {
             steps {
-                withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "echo mvn ..."
-                }
+                sh "echo mvn ..."
             }
         }
         stage('deploy to nexus') {
             steps {
-                withMaven(name="maven393", jdk="jdk1.8") {
-                    sh "echo mvn deploy"
-                }
+                sh "echo mvn deploy"
             }
         }
      }
