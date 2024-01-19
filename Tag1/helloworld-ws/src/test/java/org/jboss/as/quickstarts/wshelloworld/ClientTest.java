@@ -19,6 +19,7 @@ package org.jboss.as.quickstarts.wshelloworld;
 import static org.junit.Assert.assertEquals;
 
 import java.net.MalformedURLException;
+import java.net.URI;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
