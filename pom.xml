@@ -278,7 +278,17 @@
                     <repository>maven-snapshots</repository>
                     <!-- Skip the staging deploy mojo -->
                     <skipNexusStagingDeployMojo>true</skipNexusStagingDeployMojo>
+                    <tag>build-${product.version}</tag>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>default-deploy</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
         <pluginManagement>
