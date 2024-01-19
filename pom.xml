@@ -274,8 +274,10 @@
                     <nexusUrl>http://localhost:8081</nexusUrl>
                     <!-- The server "id" element from settings to use authentication from settings.xml-->
                     <serverId>internal.repo</serverId>
+                    <!-- The repository to deploy to -->
                     <!-- Which repository to deploy to -->
                     <repository>maven-snapshots</repository>
+                    <skipStaging>true</skipStaging>
                     <!-- Skip the staging deploy mojo -->
                     <skipNexusStagingDeployMojo>false</skipNexusStagingDeployMojo>
                 </configuration>
