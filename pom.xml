@@ -271,7 +271,7 @@
                 <version>1.0.6</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <nexusUrl>http://localhost:8081</nexusUrl>
+                    <nexusUrl>http://10.10.60.55:8081/repository/maven-snapshots</nexusUrl>
                     <!-- The server "id" element from settings to use authentication from settings.xml-->
                     <serverId>internal.repo</serverId>
                     <!-- The repository to deploy to -->
