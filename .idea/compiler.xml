@@ -18,59 +18,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jsonp" />
-        <module name="kitchensink-angularjs" />
-        <module name="bmt" />
-        <module name="jaxws-retail-client" />
-        <module name="jaxws-retail-service" />
         <module name="payment-cdi-event" />
-        <module name="jaxrs-client" />
-        <module name="dynamic-bean-decorated" />
-        <module name="greeter" />
         <module name="helloworld" />
-        <module name="helloworld-mdb-propertysubstitution" />
-        <module name="bean-validation" />
-        <module name="kitchensink-ml" />
         <module name="ejb-remote-server-side" />
-        <module name="kitchensink-ear-ear" />
         <module name="helloworld-html5" />
-        <module name="helloworld-jms" />
-        <module name="kitchensink-ear-web" />
-        <module name="jaxws-pojo-client" />
-        <module name="batch-processing" />
         <module name="servlet-filterlistener" />
-        <module name="websocket-hello" />
-        <module name="helloworld-rs" />
         <module name="ejb-remote-client" />
-        <module name="thread-racing" />
-        <module name="helloworld-mdb" />
-        <module name="helloworld-mbean-service" />
-        <module name="jaxws-ejb-client" />
-        <module name="kitchensink-ear-ejb" />
         <module name="helloworld-mutual-ssl" />
         <module name="helloworld-mutual-ssl-secured" />
         <module name="numberguess" />
-        <module name="kitchensink" />
-        <module name="cmt" />
-        <module name="resteasy-jaxrs-client" />
-        <module name="hibernate" />
-        <module name="websocket-client" />
         <module name="helloworld-ssl" />
-        <module name="helloworld-ws" />
-        <module name="events-priority" />
-        <module name="messaging-clustering-singleton" />
-        <module name="jaxws-pojo-service" />
-        <module name="events-async" />
-        <module name="jaxws-ejb-service" />
         <module name="temperature-converter" />
-        <module name="xml-jaxp" />
-        <module name="jaxws-addressing-client" />
-        <module name="helloworld-mbean-webapp" />
         <module name="helloworld-singleton" />
-        <module name="bean-validation-custom-constraint" />
-        <module name="websocket-endpoint" />
-        <module name="kitchensink-jsp" />
-        <module name="jaxws-addressing-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -78,21 +37,27 @@
       <module name="app-client-client-simple" target="20" />
       <module name="app-client-ear" target="20" />
       <module name="app-client-ejb" target="20" />
+      <module name="batch-processing" target="1.8" />
       <module name="batch-processing (1)" target="1.8" />
       <module name="batch-processing (2) (org.jboss.eap.quickstarts)" target="20" />
       <module name="batch-processing (2) (org.jboss.eap.quickstarts).main" target="20" />
       <module name="batch-processing (2) (org.jboss.eap.quickstarts).test" target="1.8" />
       <module name="batch-processing.main" target="20" />
       <module name="batch-processing.test" target="1.8" />
+      <module name="bean-validation" target="1.8" />
+      <module name="bean-validation-custom-constraint" target="1.8" />
       <module name="bean-validation-custom-constraint.main" target="20" />
       <module name="bean-validation-custom-constraint.test" target="1.8" />
       <module name="bean-validation.main" target="20" />
       <module name="bean-validation.test" target="1.8" />
+      <module name="bmt" target="1.8" />
       <module name="bmt.main" target="20" />
       <module name="bmt.test" target="1.8" />
+      <module name="cmt" target="1.8" />
       <module name="cmt.main" target="20" />
       <module name="cmt.test" target="1.8" />
       <module name="contacts-jquerymobile" target="20" />
+      <module name="dynamic-bean-decorated" target="1.8" />
       <module name="ejb-asynchronous" target="20" />
       <module name="ejb-asynchronous-client" target="20" />
       <module name="ejb-asynchronous-ejb" target="20" />
@@ -128,18 +93,27 @@
       <module name="ejb-timer" target="20" />
       <module name="ejb-txn-remote-call-client" target="20" />
       <module name="ejb-txn-remote-call-server" target="20" />
+      <module name="events-async" target="1.8" />
+      <module name="events-priority" target="1.8" />
+      <module name="greeter" target="1.8" />
       <module name="greeter.main" target="20" />
       <module name="greeter.test" target="1.8" />
       <module name="ha-singleton-deployment" target="20" />
       <module name="ha-singleton-service" target="20" />
       <module name="helloworld-html5.main" target="20" />
       <module name="helloworld-html5.test" target="1.8" />
+      <module name="helloworld-jms" target="1.8" />
       <module name="helloworld-jms.main" target="20" />
       <module name="helloworld-jms.test" target="1.8" />
+      <module name="helloworld-mbean" target="1.8" />
+      <module name="helloworld-mbean-service" target="1.8" />
       <module name="helloworld-mbean-service.main" target="20" />
       <module name="helloworld-mbean-service.test" target="1.8" />
+      <module name="helloworld-mbean-webapp" target="1.8" />
       <module name="helloworld-mbean-webapp.main" target="20" />
       <module name="helloworld-mbean-webapp.test" target="1.8" />
+      <module name="helloworld-mdb" target="1.8" />
+      <module name="helloworld-mdb-propertysubstitution" target="1.8" />
       <module name="helloworld-mdb-propertysubstitution.main" target="20" />
       <module name="helloworld-mdb-propertysubstitution.test" target="1.8" />
       <module name="helloworld-mdb.main" target="20" />
@@ -148,60 +122,87 @@
       <module name="helloworld-mutual-ssl-secured.test" target="1.8" />
       <module name="helloworld-mutual-ssl.main" target="20" />
       <module name="helloworld-mutual-ssl.test" target="1.8" />
+      <module name="helloworld-rs" target="1.8" />
       <module name="helloworld-rs.main" target="20" />
       <module name="helloworld-rs.test" target="1.8" />
       <module name="helloworld-singleton.main" target="20" />
       <module name="helloworld-singleton.test" target="1.8" />
       <module name="helloworld-ssl.main" target="20" />
       <module name="helloworld-ssl.test" target="1.8" />
+      <module name="helloworld-ws" target="1.8" />
       <module name="helloworld-ws.main" target="20" />
       <module name="helloworld-ws.test" target="1.8" />
       <module name="helloworld.main" target="20" />
       <module name="helloworld.test" target="1.8" />
       <module name="helloworldOnly-ws" target="1.8" />
+      <module name="helloworlds" target="1.8" />
+      <module name="hibernate" target="1.8" />
       <module name="hibernate.main" target="20" />
       <module name="hibernate.test" target="1.8" />
       <module name="inter-app" target="20" />
       <module name="inter-app-appA" target="20" />
       <module name="inter-app-appB" target="20" />
       <module name="inter-app-shared" target="20" />
+      <module name="jaxrs-client" target="1.8" />
       <module name="jaxrs-client.main" target="20" />
       <module name="jaxrs-client.test" target="1.8" />
+      <module name="jaxws-addressing" target="1.8" />
+      <module name="jaxws-addressing-client" target="1.8" />
       <module name="jaxws-addressing-client.main" target="20" />
       <module name="jaxws-addressing-client.test" target="1.8" />
+      <module name="jaxws-addressing-service" target="1.8" />
       <module name="jaxws-addressing-service.main" target="20" />
       <module name="jaxws-addressing-service.test" target="1.8" />
+      <module name="jaxws-ejb" target="1.8" />
+      <module name="jaxws-ejb-client" target="1.8" />
       <module name="jaxws-ejb-client.main" target="20" />
       <module name="jaxws-ejb-client.test" target="1.8" />
+      <module name="jaxws-ejb-service" target="1.8" />
       <module name="jaxws-ejb-service.main" target="20" />
       <module name="jaxws-ejb-service.test" target="1.8" />
+      <module name="jaxws-pojo" target="1.8" />
+      <module name="jaxws-pojo-client" target="1.8" />
       <module name="jaxws-pojo-client.main" target="20" />
       <module name="jaxws-pojo-client.test" target="1.8" />
+      <module name="jaxws-pojo-service" target="1.8" />
       <module name="jaxws-pojo-service.main" target="20" />
       <module name="jaxws-pojo-service.test" target="1.8" />
+      <module name="jaxws-retail" target="1.8" />
+      <module name="jaxws-retail-client" target="1.8" />
       <module name="jaxws-retail-client.main" target="20" />
       <module name="jaxws-retail-client.test" target="1.8" />
+      <module name="jaxws-retail-service" target="1.8" />
       <module name="jaxws-retail-service.main" target="20" />
       <module name="jaxws-retail-service.test" target="1.8" />
       <module name="jboss-logging" target="20" />
+      <module name="jsonp" target="1.8" />
       <module name="jsonp.main" target="20" />
       <module name="jsonp.test" target="1.8" />
       <module name="jta-crash-rec" target="1.8" />
       <module name="jts" target="1.8" />
       <module name="jts-application-component-1" target="1.8" />
       <module name="jts-application-component-2" target="1.8" />
+      <module name="kitchensink" target="1.8" />
+      <module name="kitchensink-angularjs" target="1.8" />
       <module name="kitchensink-angularjs.main" target="20" />
       <module name="kitchensink-angularjs.test" target="1.8" />
+      <module name="kitchensink-ear" target="1.8" />
+      <module name="kitchensink-ear-ear" target="1.8" />
+      <module name="kitchensink-ear-ejb" target="1.8" />
       <module name="kitchensink-ear-ejb.main" target="20" />
       <module name="kitchensink-ear-ejb.test" target="1.8" />
+      <module name="kitchensink-ear-web" target="1.8" />
       <module name="kitchensink-ear-web.main" target="20" />
       <module name="kitchensink-ear-web.test" target="1.8" />
+      <module name="kitchensink-jsp" target="1.8" />
       <module name="kitchensink-jsp.main" target="20" />
       <module name="kitchensink-jsp.test" target="1.8" />
+      <module name="kitchensink-ml" target="1.8" />
       <module name="kitchensink-ml.main" target="20" />
       <module name="kitchensink-ml.test" target="1.8" />
       <module name="kitchensink.main" target="20" />
       <module name="kitchensink.test" target="1.8" />
+      <module name="kitchensinkExample" target="1.8" />
       <module name="logging-tools" target="20" />
       <module name="mail" target="20" />
       <module name="managed-executor-service" target="20" />
@@ -210,12 +211,14 @@
       <module name="managed-scheduled-executor-service" target="20" />
       <module name="managed-scheduled-executor-service.main" target="20" />
       <module name="managed-scheduled-executor-service.test" target="1.8" />
+      <module name="messaging-clustering-singleton" target="1.8" />
       <module name="messaging-clustering-singleton.main" target="20" />
       <module name="messaging-clustering-singleton.test" target="1.8" />
       <module name="numberguess.main" target="20" />
       <module name="numberguess.test" target="1.8" />
       <module name="payment-cdi-event.main" target="20" />
       <module name="payment-cdi-event.test" target="1.8" />
+      <module name="resteasy-jaxrs-client" target="1.8" />
       <module name="resteasy-jaxrs-client.main" target="20" />
       <module name="resteasy-jaxrs-client.test" target="1.8" />
       <module name="servlet-async" target="20" />
@@ -230,10 +233,16 @@
       <module name="spring-kitchensink-basic" target="1.8" />
       <module name="spring-kitchensink-springmvctest" target="1.8" />
       <module name="spring-resteasy" target="1.8" />
+      <module name="Tag1" target="1.8" />
+      <module name="Tag2" target="1.8" />
+      <module name="Tag3" target="1.8" />
+      <module name="Tag4" target="1.8" />
+      <module name="Tag5" target="1.8" />
       <module name="tasks-jsf" target="20" />
       <module name="tasks-rs" target="20" />
       <module name="temperature-converter.main" target="20" />
       <module name="temperature-converter.test" target="1.8" />
+      <module name="thread-racing" target="1.8" />
       <module name="thread-racing (1)" target="1.5" />
       <module name="thread-racing (2) (org.jboss.eap.quickstarts)" target="20" />
       <module name="thread-racing (2) (org.jboss.eap.quickstarts).main" target="20" />
@@ -241,15 +250,19 @@
       <module name="thread-racing.main" target="20" />
       <module name="thread-racing.test" target="1.8" />
       <module name="todo-backend" target="20" />
+      <module name="websocket-client" target="1.8" />
       <module name="websocket-client.main" target="20" />
       <module name="websocket-client.test" target="1.8" />
+      <module name="websocket-endpoint" target="1.8" />
       <module name="websocket-endpoint.main" target="20" />
       <module name="websocket-endpoint.test" target="1.8" />
+      <module name="websocket-hello" target="1.8" />
       <module name="websocket-hello.main" target="20" />
       <module name="websocket-hello.test" target="1.8" />
       <module name="wsat-simple" target="1.8" />
       <module name="wsba-coordinator-completion-simple" target="20" />
       <module name="wsba-participant-completion-simple" target="20" />
+      <module name="xml-jaxp" target="1.8" />
       <module name="xml-jaxp.main" target="20" />
       <module name="xml-jaxp.test" target="1.8" />
     </bytecodeTargetLevel>
