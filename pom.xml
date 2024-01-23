@@ -92,7 +92,7 @@
                 <artifactId>jboss-eap-jakartaee8-with-tools</artifactId>
                 <version>${version.server.bom}</version>
                 <type>pom</type>
-                <scope>import</scope>
+                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.junit</groupId>
@@ -191,7 +191,7 @@
             <artifactId>jboss-eap-jakartaee8-with-tools</artifactId>
             <version>${version.server.bom}</version>
             <type>pom</type>
-            <scope>import</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.arquillian.junit</groupId>
