@@ -18,18 +18,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="payment-cdi-event" />
-        <module name="helloworld" />
-        <module name="ejb-remote-server-side" />
-        <module name="helloworld-html5" />
-        <module name="servlet-filterlistener" />
-        <module name="ejb-remote-client" />
-        <module name="helloworld-mutual-ssl" />
-        <module name="helloworld-mutual-ssl-secured" />
-        <module name="numberguess" />
-        <module name="helloworld-ssl" />
-        <module name="temperature-converter" />
-        <module name="helloworld-singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -79,6 +67,9 @@
       <module name="ejb-multi-server-app-two-ejb" target="1.8" />
       <module name="ejb-multi-server-app-web" target="1.8" />
       <module name="ejb-multi-server-client" target="20" />
+      <module name="ejb-remote" target="1.8" />
+      <module name="ejb-remote-client" target="1.8" />
+      <module name="ejb-remote-server-side" target="1.8" />
       <module name="ejb-remote-server-side.main" target="20" />
       <module name="ejb-remote-server-side.test" target="1.8" />
       <module name="ejb-security" target="1.8" />
@@ -91,15 +82,20 @@
       <module name="ejb-throws-exception-ejb-api" target="20" />
       <module name="ejb-throws-exception-web" target="20" />
       <module name="ejb-timer" target="20" />
+      <module name="ejb-txn-remote-call" target="1.8" />
       <module name="ejb-txn-remote-call-client" target="20" />
       <module name="ejb-txn-remote-call-server" target="20" />
+      <module name="ejbs" target="1.8" />
       <module name="events-async" target="1.8" />
       <module name="events-priority" target="1.8" />
+      <module name="general" target="1.8" />
       <module name="greeter" target="1.8" />
       <module name="greeter.main" target="20" />
       <module name="greeter.test" target="1.8" />
       <module name="ha-singleton-deployment" target="20" />
       <module name="ha-singleton-service" target="20" />
+      <module name="helloworld" target="1.8" />
+      <module name="helloworld-html5" target="1.8" />
       <module name="helloworld-html5.main" target="20" />
       <module name="helloworld-html5.test" target="1.8" />
       <module name="helloworld-jms" target="1.8" />
@@ -118,6 +114,8 @@
       <module name="helloworld-mdb-propertysubstitution.test" target="1.8" />
       <module name="helloworld-mdb.main" target="20" />
       <module name="helloworld-mdb.test" target="1.8" />
+      <module name="helloworld-mutual-ssl" target="1.8" />
+      <module name="helloworld-mutual-ssl-secured" target="1.8" />
       <module name="helloworld-mutual-ssl-secured.main" target="20" />
       <module name="helloworld-mutual-ssl-secured.test" target="1.8" />
       <module name="helloworld-mutual-ssl.main" target="20" />
@@ -125,8 +123,10 @@
       <module name="helloworld-rs" target="1.8" />
       <module name="helloworld-rs.main" target="20" />
       <module name="helloworld-rs.test" target="1.8" />
+      <module name="helloworld-singleton" target="1.8" />
       <module name="helloworld-singleton.main" target="20" />
       <module name="helloworld-singleton.test" target="1.8" />
+      <module name="helloworld-ssl" target="1.8" />
       <module name="helloworld-ssl.main" target="20" />
       <module name="helloworld-ssl.test" target="1.8" />
       <module name="helloworld-ws" target="1.8" />
@@ -214,14 +214,17 @@
       <module name="messaging-clustering-singleton" target="1.8" />
       <module name="messaging-clustering-singleton.main" target="20" />
       <module name="messaging-clustering-singleton.test" target="1.8" />
+      <module name="numberguess" target="1.8" />
       <module name="numberguess.main" target="20" />
       <module name="numberguess.test" target="1.8" />
+      <module name="payment-cdi-event" target="1.8" />
       <module name="payment-cdi-event.main" target="20" />
       <module name="payment-cdi-event.test" target="1.8" />
       <module name="resteasy-jaxrs-client" target="1.8" />
       <module name="resteasy-jaxrs-client.main" target="20" />
       <module name="resteasy-jaxrs-client.test" target="1.8" />
       <module name="servlet-async" target="20" />
+      <module name="servlet-filterlistener" target="1.8" />
       <module name="servlet-filterlistener.main" target="20" />
       <module name="servlet-filterlistener.test" target="1.8" />
       <module name="servlet-security" target="20" />
@@ -240,6 +243,7 @@
       <module name="Tag5" target="1.8" />
       <module name="tasks-jsf" target="20" />
       <module name="tasks-rs" target="20" />
+      <module name="temperature-converter" target="1.8" />
       <module name="temperature-converter.main" target="20" />
       <module name="temperature-converter.test" target="1.8" />
       <module name="thread-racing" target="1.8" />

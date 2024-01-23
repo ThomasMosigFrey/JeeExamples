@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/Tag4/managed-scheduled-executor-service/pom.xml" />
         <option value="$PROJECT_DIR$/Tag4/pom.xml" />
         <option value="$PROJECT_DIR$/Tag5/pom.xml" />
+        <option value="$PROJECT_DIR$/ejbs/ejb-remote/pom.xml" />
+        <option value="$PROJECT_DIR$/ejbs/ejb-txn-remote-call/pom.xml" />
+        <option value="$PROJECT_DIR$/ejbs/pom.xml" />
+        <option value="$PROJECT_DIR$/general/pom.xml" />
         <option value="$PROJECT_DIR$/helloworlds/pom.xml" />
         <option value="$PROJECT_DIR$/kitchensinkExample/pom.xml" />
       </set>

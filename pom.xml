@@ -30,20 +30,12 @@
 
     <name>Quickstart: Parent</name>
     <description>Quickstart's parent</description>
-    <url>https://developers.redhat.com/quickstarts/eap/</url>
 
-    <licenses>
-        <license>
-            <name>Apache License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
     <modules>
-        <module>ejbs</module>
-        <module>general</module>
+        <module>ejb</module>
     </modules>
     <properties>
+        <version.checkstyle.plugin>3.1.1</version.checkstyle.plugin>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
@@ -81,7 +73,7 @@
         <!-- Version of BOMs
         note: a SNAPSHOT version *requires* checkout of BOMs at https://github.com/wildfly/boms and build through "mvn clean install"
         -->
-        <version.server.bom>7.4.0-SNAPSHOT</version.server.bom>
+        <version.server.bom>7.4.0.GA</version.server.bom>
 
         <!-- Versions of unmanaged dependencies -->
         <version.arquillian.angularjs.graphene>1.2.0.Beta1</version.arquillian.angularjs.graphene>
