@@ -20,7 +20,7 @@
     <parent>
         <groupId>org.jboss.eap.quickstarts</groupId>
         <artifactId>JeeExamples</artifactId>
-        <version>7.4.0.GA</version>
+        <version>7.4.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 

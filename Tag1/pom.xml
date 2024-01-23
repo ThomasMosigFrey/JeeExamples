@@ -3,7 +3,7 @@
     <parent>
         <artifactId>JeeExamples</artifactId>
         <groupId>org.jboss.eap.quickstarts</groupId>
-        <version>7.4.0.GA</version>
+        <version>7.4.0-SNAPSHOT</version>
     </parent>
     <modules>
         <module>bean-validation</module>
