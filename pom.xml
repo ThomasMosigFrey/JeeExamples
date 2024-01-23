@@ -57,10 +57,11 @@
         <module>general</module>
     </modules>
     <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
-        <maven.compiler.testSource>1.8</maven.compiler.testSource>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <encoding>UTF-8</encoding>
+        <project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+
         <maven.plugin.validation>VERBOSE</maven.plugin.validation>
         <exec-maven-plugin.version>3.1.0</exec-maven-plugin.version>
         <root.dir>${project.basedir}</root.dir>
