@@ -16,13 +16,16 @@
  */
 package org.jboss.as.quickstarts.ear.ejb;
 
-import javax.ejb.Stateful;
+import javax.ejb.*;
+
 
 /**
  * A simple Hello World EJB. The EJB does not use an interface.
  *
  * @author paul.robinson@redhat.com, 2011-12-21
  */
+@Remote
+@Local
 @Stateful
 public class GreeterEJB {
     /**

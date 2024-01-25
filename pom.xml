@@ -35,6 +35,13 @@
         <module>ejb</module>
     </modules>
     <properties>
+        <deploy.jboss.host>10.10.60.55</deploy.jboss.host>
+        <deploy.jboss.port>10090</deploy.jboss.port>
+        <deploy.jboss.user>admin</deploy.jboss.user>
+        <deploy.jboss.password>jenkins</deploy.jboss.password>
+        <backend.deployment-name>ejb</backend.deployment-name>
+
+        <maven-deploy-plugin.verion>3.1.0</maven-deploy-plugin.verion>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.testTarget>1.8</maven.compiler.testTarget>
@@ -200,14 +207,6 @@
             <version>${arquillian-junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>org.jboss.arquillian.protocol</groupId>
-            <artifactId>arquillian-protocol-servlet</artifactId>
-            <version>${arquillian-junit.version}</version>
-            <scope>test</scope>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.jboss.arquillian</groupId>
             <artifactId>arquillian-bom</artifactId>
@@ -235,6 +234,7 @@
             <url>http://10.10.60.55:8081/repository/jenkins-snapshots</url>
         </repository>
     </distributionManagement>
+
     <build>
         <!-- Set the name of the WAR, used as the context root when the app is deployed. -->
         <finalName>${project.artifactId}</finalName>
@@ -243,70 +243,55 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>com.mycila</groupId>
-                <artifactId>license-maven-plugin</artifactId>
-                <version>${version.com.mycyla.license}</version>
-                <configuration>
-                    <header>${basedir}/dist/license.txt</header>
-                    <aggregate>true</aggregate>
-                    <strictCheck>false</strictCheck>
-                    <excludes>
-                        <exclude>target/**</exclude>
-                        <exclude>.clover/**</exclude>
-                        <exclude>**/*.sql</exclude>
-                        <exclude>**/LICENSE*</exclude>
-                        <exclude>**/license*</exclude>
-                        <!-- Javascrip Libraries -->
-                        <exclude>**/jquery*</exclude>
-                        <exclude>**/angular*</exclude>
-                        <exclude>**/qunit*</exclude>
-                        <exclude>**/backbone*</exclude>
-                        <exclude>**/lodash*</exclude>
-                        <exclude>**/modernizr*</exclude>
-                        <exclude>**/yepnope*</exclude>
-                        <exclude>**/mobile-nav*</exclude>
-                        <!--Other libraries -->
-                        <exclude>**/*glyphicons*/**</exclude>
-                        <exclude>**/*cordova*/**</exclude>
-                    </excludes>
-                    <encoding>UTF-8</encoding>
-                    <headerDefinitions>
-                        <headerDefinition>dist/headerdefinition.xml</headerDefinition>
-                    </headerDefinitions>
-                </configuration>
+                <executions>
+                    <execution>
+                        <id>deploy-jar</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <configuration>
-                    <username>admin</username>
-                    <password>jenkins</password>
-                    <hostname>10.10.60.55</hostname>
-                    <port>10090</port>
-                    <server-groups>
-                        <server-group>main-server-group</server-group>
-                    </server-groups>
-                </configuration>
-            </plugin>
 
+                    <!-- control remote wildfly server -->
+                    <hostname>${deploy.jboss.host}</hostname>
+                    <port>${deploy.jboss.port}</port>
+                    <username>${deploy.jboss.user}</username>
+                    <password>${deploy.jboss.password}</password>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>deploy-jar</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
+
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${maven-deploy-plugin.verion}</version>
+                </plugin>
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>3.2</version>
-                </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-deploy-plugin</artifactId>
-                    <version>2.8.2</version>
                 </plugin>
 
                 <plugin>
