@@ -188,6 +188,8 @@
     <file url="file://$PROJECT_DIR$/ejb-throws-exception/web/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ejb-timer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ejb-timer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ejb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ejb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ejbs/ejb-in-war/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ejbs/ejb-in-war/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ejbs/ejb-multi-server/app-main/ear/src/main/java" charset="UTF-8" />
