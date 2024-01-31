@@ -228,6 +228,7 @@
         </dependency>
 
     </dependencies>
+
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
