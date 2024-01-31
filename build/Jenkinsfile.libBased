@@ -2,9 +2,9 @@ jeePipeline {
     agentLabels = "linux"
     timeout = 5
     uatHost = "10.10.60.55"
-    uatPort = "10090"
+    uatPort = 10090
     uatCreds = "bde764f8-d98e-411f-9a24-900dccac6d04"
     devHost = "10.10.60.55"
-    devPort = "10090"
-    devCreds =  "24dfea8d-7135-4d8b-908f-c0f74088e116"
+    devPort = 10090
+    devCreds = "24dfea8d-7135-4d8b-908f-c0f74088e116"
 }
