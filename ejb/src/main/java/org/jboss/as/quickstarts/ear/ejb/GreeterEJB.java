@@ -36,6 +36,6 @@ public class GreeterEJB {
      * @return the personalised greeting.
      */
     public String sayHello(String name) {
-        return "Hello my dear: " + name;
+        return "Hello my dear!!!: " + name;
     }
 }
