@@ -1,2 +1,5 @@
 jeePipeline {
+    agentLabels = "linux"
+    timeout = 5
+
 }
