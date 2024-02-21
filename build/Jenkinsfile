@@ -2,3 +2,5 @@ PipelineWithClosure {
     key  = 'test'
     value = 1
 }
+
+PipelineWithParameters('test2', 2)
