@@ -1,7 +1,7 @@
-PipelineWithClosure {
-    key  = 'test'
-    value = 1
-}
+//PipelineWithClosure {
+//    key  = 'test'
+//    value = 1
+    // ...
+//}
 
-// a second call with the pipeline directive would be illegal
-// PipelineWithParameters('test2', 2)
+PipelineWithParameters('linux', 'test2', 2)
