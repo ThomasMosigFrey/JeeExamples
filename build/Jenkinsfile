@@ -4,6 +4,7 @@ PipelineWithClosure {
     // ...
 }
 
+@Library("standard lib") _
 mavenBuildsPipeLine {
     cron = "H * * * *"
     label = "linux"
