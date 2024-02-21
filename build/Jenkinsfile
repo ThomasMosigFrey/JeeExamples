@@ -4,5 +4,8 @@ PipelineWithClosure {
     // ...
 }
 
-PipelineWithParameters('linux', 'test2', 2)
-
+mavenBuildPipeline {
+    cron = "H * * * *"
+    label = "linux"
+    maven = "maven3"
+}
