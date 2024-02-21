@@ -4,7 +4,7 @@ PipelineWithClosure {
     // ...
 }
 
-mavenBuildsPipeline {
+mavenBuildsPipeLine {
     cron = "H * * * *"
     label = "linux"
     maven = "maven3"
