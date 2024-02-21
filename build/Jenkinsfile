@@ -1,1 +1,4 @@
-PipelineWithParameters("test", 1)
+PipelineWithClosure {
+    key  = 'test'
+    value = 1
+}
