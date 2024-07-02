@@ -13,9 +13,12 @@ pipeline {
         
         stage ('create reports') {
             steps {
-                archive 'target/*.jar, logs/*.logs'
+                archiveArtifacts allowEmptyArchive: true, artifacts: 'logs/*.log', followSymlinks: false, onlyIfSuccessful: false
+                archiveArtifacts allowEmptyArchive: true, artifacts: 'target/*.jar', followSymlinks: false, onlyIfSuccessful: true
                 junit stdioRetention: '', testResults: 'target/**/*.xml'
                 recordIssues enabledForFailure: true, sourceCodeRetention: 'LAST_BUILD', tools: [mavenConsole(pattern: '**/*.log')]
+
+                copyArtifacts filter: 'target/*jar', fingerprintArtifacts: true, optional: true, projectName: 'JeeExamples/master', selector: lastSuccessful(), target: 'jeeTarget'
             }
         }
         stage('deploy to nexus') {
