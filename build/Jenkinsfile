@@ -15,10 +15,12 @@ pipeline {
             steps {
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'logs/*.log', followSymlinks: false, onlyIfSuccessful: false
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'ejb/target/*.jar', followSymlinks: false, onlyIfSuccessful: true
+                
+                copyArtifacts filter: 'ejb/target/*.jar', fingerprintArtifacts: true, projectName: 'JeeExamples/master', selector: lastSuccessful(), target: 'jeeTarget'
+  
                 junit stdioRetention: '', testResults: 'target/**/*.xml'
                 recordIssues enabledForFailure: true, sourceCodeRetention: 'LAST_BUILD', tools: [mavenConsole(pattern: '**/*.log')]
 
-                copyArtifacts filter: 'ejb/target/*.jar', fingerprintArtifacts: true, optional: true, projectName: 'JeeExamples/master', selector: lastSuccessful(), target: 'jeeTarget'
             }
         }
         stage('deploy to nexus') {
