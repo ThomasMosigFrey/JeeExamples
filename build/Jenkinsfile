@@ -16,44 +16,12 @@ pipeline {
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'logs/*.log', followSymlinks: false, onlyIfSuccessful: false
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'ejb/target/*.jar', followSymlinks: false, onlyIfSuccessful: true
                 
-                copyArtifacts filter: 'ejb/target/*.jar', fingerprintArtifacts: true, projectName: 'JeeExamples/master', selector: lastSuccessful(), target: '.'
+                copyArtifacts filter: 'ejb/target/*.jar', fingerprintArtifacts: true, projectName: '/Thomas Frey/JeeExamples/master', selector: lastSuccessful(), target: '.'
   
                 junit stdioRetention: '', testResults: 'target/**/*.xml'
                 recordIssues enabledForFailure: true, sourceCodeRetention: 'LAST_BUILD', tools: [mavenConsole(pattern: '**/*.log')]
 
             }
-        }
-        stage('deploy to nexus') {
-            steps {
-                withMaven(globalMavenSettingsConfig: 'ae44f8b3-3bf7-4624-8e87-74659f3f817f', maven: 'maven3', mavenSettingsConfig: '', traceability: true) {
-                    sh "mvn install -DskipTests"
-                }
-            }
-        }
-        stage('deploy to jboss to uat test system') {
-            when { branch 'master'}
-            steps {
-                withMaven(globalMavenSettingsConfig: 'ae44f8b3-3bf7-4624-8e87-74659f3f817f', maven: 'maven3', mavenSettingsConfig: '', traceability: true) {
-                    withCredentials([usernamePassword(credentialsId: 'bde764f8-d98e-411f-9a24-900dccac6d04', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
-                        sh "mvn deploy -DskipTests -Ddeploy.jboss.host=10.10.60.71 -Ddeploy.jboss.port=10090 -Ddeploy.jboss.user=${USERNAME} -Ddeploy.jboss.password=${PASSWORD}"
-                    }
-                }
-            }
-        }
-        stage('deploy to jboss to dev test system') {
-            when { branch 'dev'}
-            steps {
-                withMaven(globalMavenSettingsConfig: 'ae44f8b3-3bf7-4624-8e87-74659f3f817f', maven: 'maven3', mavenSettingsConfig: '', traceability: true) {
-                    withCredentials([usernamePassword(credentialsId: '24dfea8d-7135-4d8b-908f-c0f74088e116', passwordVariable: 'PASSWORD', usernameVariable: 'USERNAME')]) {
-                        sh "mvn deploy -DskipTests -Ddeploy.jboss.host=10.10.60.71 -Ddeploy.jboss.port=10090 -Ddeploy.jboss.user=${USERNAME} -Ddeploy.jboss.password=${PASSWORD}"
-                    }
-                }
-            }
-        }
-    }
-    post {
-        always {
-            emailext attachLog: true, body: '', recipientProviders: [contributor()], subject: 'Build ${env.JOB_NAME] endet with status${env.JOB_STATUS}', to: 'thomas@mosig-frey.de'
         }
     }
 }
