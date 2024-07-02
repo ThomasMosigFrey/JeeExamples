@@ -35,7 +35,7 @@
         <module>ejb</module>
     </modules>
     <properties>
-        <deploy.jboss.host>10.10.60.63</deploy.jboss.host>
+        <deploy.jboss.host>10.10.60.88</deploy.jboss.host>
         <deploy.jboss.port>10090</deploy.jboss.port>
         <deploy.jboss.user>admin</deploy.jboss.user>
         <deploy.jboss.password>jenkins</deploy.jboss.password>
@@ -232,7 +232,7 @@
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
-            <url>http://10.10.60.63:8081/repository/jenkins-snapshots</url>
+            <url>http://10.10.60.71:8081/repository/jenkins-snapshots</url>
         </repository>
     </distributionManagement>
 
