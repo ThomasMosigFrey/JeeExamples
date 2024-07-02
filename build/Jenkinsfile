@@ -13,6 +13,7 @@ pipeline {
         
         stage ('create reports') {
             steps {
+                archive 'target/*.jar, logs/*.logs'
                 junit stdioRetention: '', testResults: 'target/**/*.xml'
                 recordIssues enabledForFailure: true, sourceCodeRetention: 'LAST_BUILD', tools: [mavenConsole(pattern: '**/*.log')]
             }
