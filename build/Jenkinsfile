@@ -11,7 +11,13 @@ pipeline {
                 }
             }
         }
-        
+        stage('deploy to nexus') {
+        steps {
+            withMaven(globalMavenSettingsConfig: 'ae44f8b3-3bf7-4624-8e87-74659f3f817f', maven: 'maven3', mavenSettingsConfig: '', traceability: true) {
+                sh "mvn install -DskipTests"
+            }
+        }
+
         stage ('create reports') {
             steps {
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'logs/*.log', followSymlinks: false, onlyIfSuccessful: false
