@@ -232,7 +232,7 @@
     <distributionManagement>
         <repository>
             <id>internal.repo</id>
-            <url>http://${deploy.jboss.host}:8081/repository/jenkins-snapshots</url>
+            <url>http://${ENV.NEXUS_HOST}:8081/repository/jenkins-snapshots</url>
         </repository>
     </distributionManagement>
 
