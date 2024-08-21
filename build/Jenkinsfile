@@ -19,9 +19,7 @@ pipeline {
             steps {
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'logs/*.log', followSymlinks: false, onlyIfSuccessful: false
                 archiveArtifacts allowEmptyArchive: true, artifacts: 'ejb/target/*.jar', followSymlinks: false, onlyIfSuccessful: true
-                
-                copyArtifacts filter: 'ejb/target/*.jar',  optional: true, fingerprintArtifacts: true, projectName: '/Thomas Frey/JeeExamples/master', selector: lastSuccessful(), target: '.'
-  
+                  
                 junit stdioRetention: '', testResults: 'target/**/*.xml', allowEmptyResults: true
 
                 recordIssues enabledForFailure: true, sourceCodeRetention: 'LAST_BUILD', tools: [mavenConsole(pattern: '**/*.log')]
