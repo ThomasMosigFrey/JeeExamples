@@ -1,12 +1,2 @@
-PipelineWithClosure {
-    key  = 'test'
-    value = 1
-    // ...
-}
-
-@Library("standard libs") _
-standardPipeline {
-    cron = "H * * * *"
-    label = "linux"
-    maven = "maven3"
+standardPipeline1 {
 }
