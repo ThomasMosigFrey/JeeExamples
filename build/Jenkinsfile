@@ -3,5 +3,4 @@ standardPipeline {
     label = "linux"
     maven = "maven3"
     nexusHost = "10.10.60.59"
-    jbossHost = "10.10.60.59"
-}
+ }
