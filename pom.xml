@@ -37,12 +37,6 @@
         <module>ejb</module>
     </modules>
     <properties>
-        <deploy.jboss.host>10.10.60.59</deploy.jboss.host>
-        <deploy.jboss.port>10090</deploy.jboss.port>
-        <deploy.jboss.user>admin</deploy.jboss.user>
-        <deploy.jboss.password>jenkins</deploy.jboss.password>
-        <backend.deployment-name>ejb</backend.deployment-name>
-
         <maven-deploy-plugin.verion>3.1.0</maven-deploy-plugin.verion>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -235,28 +229,6 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
-            </plugin>
-
-            <plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <configuration>
-
-                    <!-- control remote wildfly server -->
-                    <hostname>${deploy.jboss.host}</hostname>
-                    <port>${deploy.jboss.port}</port>
-                    <username>${deploy.jboss.user}</username>
-                    <password>${deploy.jboss.password}</password>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>deploy-jar</id>
-                        <phase>deploy</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
 
